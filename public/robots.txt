@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://puconstrutora.com/sitemap.xml
