@@ -330,7 +330,7 @@ export const fallbackDataset: SiteDataset = {
       externalUrl: "https://dunamar.vercel.app",
       externalLabel: l("Abrir site do projeto", "Open project website"),
       image: {
-        fallbackSrc: "/projects/dunamar-hero.jpg",
+        fallbackSrc: "/projects/dunamar/dunamar-render-front-elevation.jpg",
         alt: l(
           "Imagem do empreendimento DunaMar em Paracuru.",
           "Image of the DunaMar development in Paracuru."
@@ -338,21 +338,21 @@ export const fallbackDataset: SiteDataset = {
       },
       gallery: [
         {
-          fallbackSrc: "/projects/dunamar-hero.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-render-front-elevation.jpg",
           alt: l(
             "Imagem principal do empreendimento DunaMar em Paracuru.",
             "Main image of the DunaMar development in Paracuru."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar-exterior.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-construction-aerial.jpg",
           alt: l(
             "Vista externa complementar do empreendimento DunaMar.",
             "Secondary exterior view of the DunaMar development."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar-gourmet.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-render-courtyard.jpg",
           alt: l(
             "Ambiente de convivência do empreendimento DunaMar.",
             "Amenity space at the DunaMar development."
@@ -374,7 +374,7 @@ export const fallbackDataset: SiteDataset = {
       ),
       externalLabel: l("Ver panorama do empreendimento", "View development overview"),
       image: {
-        fallbackSrc: "/projects/mcmv-paracuru-aerial.jpg",
+        fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
         alt: l(
           "Vista aérea do empreendimento DunaMar 2 em fase inicial de obra.",
           "Aerial view of DunaMar 2 in early construction."
@@ -382,21 +382,21 @@ export const fallbackDataset: SiteDataset = {
       },
       gallery: [
         {
-          fallbackSrc: "/projects/mcmv-paracuru-aerial.jpg",
+          fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
           alt: l(
             "Vista aérea do empreendimento DunaMar 2 em fase inicial de obra.",
             "Aerial view of DunaMar 2 in early construction."
           )
         },
         {
-          fallbackSrc: "/projects/mcmv-paracuru-site.jpg",
+          fallbackSrc: "/projects/dunamar-2/dunamar-2-site-facade-progress.jpg",
           alt: l(
             "Registro de obra do empreendimento DunaMar 2.",
             "Construction progress image of DunaMar 2."
           )
         },
         {
-          fallbackSrc: "/places/paracuru-landscape.jpg",
+          fallbackSrc: "/projects/dunamar-2/dunamar-2-neighborhood-context.jpg",
           alt: l(
             "Paisagem de Paracuru representando o contexto territorial do empreendimento.",
             "Paracuru landscape representing the territorial context of the development."
@@ -475,7 +475,7 @@ export const fallbackDataset: SiteDataset = {
         "Coordinates construction, schedule, suppliers, and the interface with technical teams through the company's local operation in Paracuru."
       ),
       image: {
-        fallbackSrc: "/projects/mcmv-paracuru-site.jpg",
+        fallbackSrc: "/projects/dunamar-2/dunamar-2-site-facade-progress.jpg",
         alt: l(
           "Registro de obra em Paracuru representando acompanhamento local de execução.",
           "Construction view in Paracuru representing close local site oversight."
@@ -492,7 +492,7 @@ export const fallbackDataset: SiteDataset = {
         "Organizes relationships with buyers, partners, and investors through objective communication and clearly defined channels."
       ),
       image: {
-        fallbackSrc: "/projects/dunamar-gourmet.jpg",
+        fallbackSrc: "/projects/dunamar/dunamar-render-courtyard.jpg",
         alt: l(
           "Ambiente do DunaMar representando produto, atendimento e relacionamento.",
           "DunaMar amenity image representing product quality and client relationships."

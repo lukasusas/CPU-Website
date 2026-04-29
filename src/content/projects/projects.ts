@@ -10,7 +10,7 @@ export const projects: ProjectSummary[] = [
     stage: "Obra em fase final",
     externalUrl: "https://dunamar.vercel.app",
     image: {
-      src: "/projects/dunamar-hero.jpg",
+      src: "/projects/dunamar/dunamar-render-front-elevation.jpg",
       alt: {
         ptBR: "Imagem do empreendimento DunaMar em Paracuru",
         en: "Image of the DunaMar development in Paracuru"
@@ -45,7 +45,7 @@ export const projects: ProjectSummary[] = [
     unitCount: "22",
     stage: "Obra em fase inicial",
     image: {
-      src: "/projects/mcmv-paracuru-aerial.jpg",
+      src: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
       alt: {
         ptBR: "Vista aérea do empreendimento DunaMar 2 em fase inicial de obra",
         en: "Aerial view of DunaMar 2 in early construction"
