@@ -128,9 +128,25 @@ export function HomeNarrativePage({
             <article className="contact-route" key={route.id} data-reveal>
               <p className="contact-route__index">{String(index + 1).padStart(2, "0")}</p>
               <h3>{route.title}</h3>
-              <p>{route.body}</p>
-              <a className="route-cta route-cta--outline" href={route.href} {...openExternalHref(route.href)}>
-                <span>{route.ctaLabel}</span>
+              <p>
+                {route.id === "contact-buyers"
+                  ? locale === "ptBR"
+                    ? "Use a seção de projetos acima para escolher o empreendimento desejado. O site institucional não centraliza disponibilidade ou condições de venda."
+                    : "Use the projects section above to choose the development you want. The corporate website does not centralize availability or sales terms."
+                  : route.body}
+              </p>
+              <a
+                className="route-cta route-cta--outline"
+                href={route.id === "contact-buyers" ? "#projects" : route.href}
+                {...openExternalHref(route.id === "contact-buyers" ? "#projects" : route.href)}
+              >
+                <span>
+                  {route.id === "contact-buyers"
+                    ? locale === "ptBR"
+                      ? "Escolher projeto"
+                      : "Choose project"
+                    : route.ctaLabel}
+                </span>
                 <span aria-hidden="true">↗</span>
               </a>
             </article>

@@ -96,7 +96,7 @@ export const homePage: PageContent<HomeContent> = {
   },
   translations: {
     ptBR: {
-      eyebrow: "Paracuru, Ceará · Minha Casa Minha Vida",
+      eyebrow: "Paracuru, Ceará, Brasil",
       headline: "Habitação acessível com execução local em Paracuru, Ceará.",
       lead:
         "A P.U. Construtora desenvolve projetos residenciais práticos, bem planejados e construídos para entregar valor real em mercados locais.",
@@ -159,7 +159,7 @@ export const homePage: PageContent<HomeContent> = {
       }
     },
     en: {
-      eyebrow: "Paracuru, Ceará · Minha Casa Minha Vida",
+      eyebrow: "Paracuru, Ceará, Brazil",
       headline: "Accessible housing with local execution in Paracuru, Ceará.",
       lead:
         "P.U. Construtora develops practical, well-planned residential projects built to create real value in local markets.",

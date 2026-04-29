@@ -51,7 +51,7 @@ export const fallbackDataset: SiteDataset = {
             "Corporate website of P.U. Construtora: residential projects, local execution, and long-term vision in Paracuru, Ceará."
         }
       },
-      eyebrow: l("Paracuru, Ceará · Minha Casa Minha Vida", "Paracuru, Ceará · Minha Casa Minha Vida"),
+      eyebrow: l("Paracuru, Ceará, Brasil", "Paracuru, Ceará, Brazil"),
       title: l(
         "Habitação acessível com execução local em Paracuru, Ceará.",
         "Accessible housing with local execution in Paracuru, Ceará."

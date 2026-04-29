@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "vercel:whoami": "NODE_TLS_REJECT_UNAUTHORIZED=0 vercel whoami",
+    "vercel:preview": "NODE_TLS_REJECT_UNAUTHORIZED=0 vercel --yes",
+    "vercel:prod": "NODE_TLS_REJECT_UNAUTHORIZED=0 vercel --prod --yes"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",
