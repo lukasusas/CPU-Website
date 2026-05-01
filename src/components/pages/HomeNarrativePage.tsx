@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ProjectPortfolioCard } from "@/components/project/ProjectPortfolioCard";
+import { HomeProjectPortfolio } from "@/components/project/HomeProjectPortfolio";
 import { DataLine } from "@/components/primitives/DataLine";
 import { InvestorThesisRow } from "@/components/primitives/InvestorThesisRow";
 import { MonoMediaWindow } from "@/components/primitives/MonoMediaWindow";
@@ -34,6 +34,11 @@ export function HomeNarrativePage({
   contactRoutes
 }: HomeNarrativePageProps) {
   const coordinates = locale === "ptBR" ? "-3.4126° S · -39.0250° O" : "-3.4126° S · -39.0250° W";
+  const mobileProjectNames = projects.map((project) => project.name).join(" · ");
+  const projectCountLabel =
+    locale === "ptBR"
+      ? `${String(projects.length).padStart(2, "0")} empreendimentos`
+      : `${String(projects.length).padStart(2, "0")} developments`;
 
   return (
     <>
@@ -50,6 +55,16 @@ export function HomeNarrativePage({
             {page.secondaryCtaLabel && page.secondaryCtaRouteKey ? (
               <RouteCTA href={routeFor(page.secondaryCtaRouteKey, locale)} label={page.secondaryCtaLabel} />
             ) : null}
+          </div>
+
+          <div className="hero-brutal__mobile-strip" data-reveal>
+            <div className="hero-brutal__mobile-strip-head">
+              <p>{locale === "ptBR" ? "Panorama de projetos" : "Project overview"}</p>
+              <span>{projectCountLabel}</span>
+            </div>
+            <p className="hero-brutal__mobile-strip-location">{locale === "ptBR" ? "Paracuru, Ceará, Brasil" : "Paracuru, Ceara, Brazil"}</p>
+            <p className="hero-brutal__mobile-strip-names">{mobileProjectNames}</p>
+            <RouteCTA href="#projects" label={locale === "ptBR" ? "Ver portfólio" : "View portfolio"} />
           </div>
         </div>
 
@@ -81,11 +96,7 @@ export function HomeNarrativePage({
         title={locale === "ptBR" ? "Portfólio de empreendimentos" : "Development portfolio"}
         intro={locale === "ptBR" ? "Panorama institucional com foco em contexto, produto e estágio de obra." : "Institutional overview focused on context, product, and construction stage."}
       >
-        <div className="project-window-grid">
-          {projects.map((project, index) => (
-            <ProjectPortfolioCard key={project.id} locale={locale} project={project} index={index} />
-          ))}
-        </div>
+        <HomeProjectPortfolio locale={locale} projects={projects} />
       </SectionFrame>
 
       <SectionFrame

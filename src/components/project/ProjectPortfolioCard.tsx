@@ -12,6 +12,7 @@ type ProjectPortfolioCardProps = {
   locale: Locale;
   project: LocalizedProjectSummary;
   index: number;
+  variant?: "grid" | "rail";
 };
 
 function openExternalHref(href: string) {
@@ -19,7 +20,12 @@ function openExternalHref(href: string) {
   return external ? { target: "_blank", rel: "noreferrer" as const } : {};
 }
 
-export function ProjectPortfolioCard({ locale, project, index }: ProjectPortfolioCardProps) {
+export function ProjectPortfolioCard({
+  locale,
+  project,
+  index,
+  variant = "grid"
+}: ProjectPortfolioCardProps) {
   const gallery = useMemo(
     () => (project.gallery.length > 0 ? project.gallery : [project.image]),
     [project.gallery, project.image]
@@ -28,7 +34,7 @@ export function ProjectPortfolioCard({ locale, project, index }: ProjectPortfoli
   const activeImage = gallery[activeIndex] ?? gallery[0];
 
   return (
-    <article className="project-window" data-reveal>
+    <article className={`project-window project-window--${variant}`} data-reveal>
       <header className="project-window__header">
         <span>{String(index + 1).padStart(2, "0")}</span>
         <span>{project.stage}</span>
