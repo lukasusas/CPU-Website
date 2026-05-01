@@ -8,7 +8,7 @@ export const projects: ProjectSummary[] = [
     projectType: "Apartamentos",
     unitCount: "14",
     stage: "Obra em fase final",
-    externalUrl: "https://dunamar.vercel.app",
+    externalUrl: "https://dunamar.construtorapu.com.br",
     image: {
       src: "/projects/dunamar/dunamar-render-front-elevation.jpg",
       alt: {

@@ -490,7 +490,7 @@ export const contactPage: PageContent<ContactContent> = {
           title: "Projetos e compradores",
           body: "Para informações comerciais, andamento de atendimento e detalhes do DunaMar, utilize o site dedicado do empreendimento. O site institucional não centraliza disponibilidade ou condições de venda.",
           cta: "Abrir DunaMar",
-          href: "https://dunamar.vercel.app"
+          href: "https://dunamar.construtorapu.com.br"
         },
         {
           title: "Investidores",
@@ -528,7 +528,7 @@ export const contactPage: PageContent<ContactContent> = {
           title: "Projects and buyers",
           body: "For commercial information, buyer support, and DunaMar project details, use the dedicated project website. The corporate website does not centralize availability or sales terms.",
           cta: "Open DunaMar",
-          href: "https://dunamar.vercel.app"
+          href: "https://dunamar.construtorapu.com.br"
         },
         {
           title: "Investors",

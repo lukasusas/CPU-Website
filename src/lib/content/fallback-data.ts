@@ -326,7 +326,7 @@ export const fallbackDataset: SiteDataset = {
         "Primeiro empreendimento da P.U. Construtora em Paracuru, com 14 apartamentos e obra em fase final. É a referência inicial de entrega e padrão construtivo da empresa.",
         "The company's first project in Paracuru, with 14 apartments and construction near completion. It serves as P.U. Construtora's first delivery benchmark and quality reference."
       ),
-      externalUrl: "https://dunamar.vercel.app",
+      externalUrl: "https://dunamar.construtorapu.com.br",
       externalLabel: l("Abrir site do projeto", "Open project website"),
       image: {
         fallbackSrc: "/projects/dunamar/dunamar-render-front-elevation.jpg",
@@ -509,7 +509,7 @@ export const fallbackDataset: SiteDataset = {
         "For commercial information, buyer support, and DunaMar project details, use the dedicated project website. The corporate website does not centralize availability or sales terms."
       ),
       ctaLabel: l("Abrir DunaMar", "Open DunaMar"),
-      href: "https://dunamar.vercel.app",
+      href: "https://dunamar.construtorapu.com.br",
       order: 0
     },
     {
