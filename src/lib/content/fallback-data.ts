@@ -6,11 +6,10 @@ export const fallbackDataset: SiteDataset = {
   settings: {
     siteName: "P.U. Construtora",
     legalName: "P.U. Construtora Ltda",
-    baseUrl: "https://puconstrutora.com",
+    baseUrl: "https://construtorapu.com.br",
     defaultLocale: "ptBR",
-    contactEmail: "contato@puconstrutora.com",
-    investorEmail: "investidores@puconstrutora.com",
-    whatsappUrl: "https://wa.me/[removed]",
+    contactEmail: "contato@construtorapu.com.br",
+    investorEmail: "invest@construtorapu.com.br",
     coordinatesLabel: l(
       "Paracuru, Ceará, Brasil",
       "Paracuru, Ceará, Brazil"
@@ -521,7 +520,7 @@ export const fallbackDataset: SiteDataset = {
         "Dedicated channel for conversations about the company's Paracuru operation, Minha Casa Minha Vida-aligned projects, development stages, and institutional materials for private review."
       ),
       ctaLabel: l("Enviar email", "Send email"),
-      href: "mailto:investidores@puconstrutora.com",
+      href: "mailto:invest@construtorapu.com.br",
       order: 1
     },
     {
@@ -532,7 +531,7 @@ export const fallbackDataset: SiteDataset = {
         "Channel for land opportunities, suppliers, brokers, and operating partnerships connected to the company's work in Paracuru."
       ),
       ctaLabel: l("Enviar email", "Send email"),
-      href: "mailto:contato@puconstrutora.com",
+      href: "mailto:contato@construtorapu.com.br",
       order: 2
     }
   ],
@@ -542,8 +541,8 @@ export const fallbackDataset: SiteDataset = {
       blockKey: "dados-pessoais",
       title: l("Dados pessoais", "Personal data"),
       body: l(
-        "Dados enviados por formulários, email ou WhatsApp são utilizados apenas para responder ao assunto solicitado e direcionar o contato ao responsável correto.",
-        "Data submitted through forms, email, or WhatsApp is used only to respond to the requested matter and route the contact to the appropriate person."
+        "Dados enviados por formulários ou email são utilizados apenas para responder ao assunto solicitado e direcionar o contato ao responsável correto.",
+        "Data submitted through forms or email is used only to respond to the requested matter and route the contact to the appropriate person."
       ),
       order: 0
     },

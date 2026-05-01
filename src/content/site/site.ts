@@ -3,11 +3,10 @@ import type { Localized } from "@/content/types";
 export const siteSettings = {
   name: "P.U. Construtora",
   legalName: "P.U. Construtora Ltda",
-  baseUrl: "https://puconstrutora.com",
+  baseUrl: "https://construtorapu.com.br",
   defaultLocale: "ptBR",
-  contactEmail: "contato@puconstrutora.com",
-  investorEmail: "investidores@puconstrutora.com",
-  whatsappUrl: "https://wa.me/[removed]",
+  contactEmail: "contato@construtorapu.com.br",
+  investorEmail: "invest@construtorapu.com.br",
   social: {
     instagram: "",
     linkedin: ""

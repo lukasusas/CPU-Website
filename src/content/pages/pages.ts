@@ -496,13 +496,13 @@ export const contactPage: PageContent<ContactContent> = {
           title: "Investidores",
           body: "Canal dedicado para conversas sobre atuação da empresa em Paracuru, projetos alinhados ao Minha Casa Minha Vida, estágio dos empreendimentos e materiais institucionais para análise privada.",
           cta: "Enviar email",
-          href: "mailto:investidores@puconstrutora.com"
+          href: "mailto:invest@construtorapu.com.br"
         },
         {
           title: "Parcerias",
         body: "Canal para terrenos, fornecedores, corretores e parcerias operacionais conectadas à atuação da empresa em Paracuru.",
           cta: "Enviar email",
-          href: "mailto:contato@puconstrutora.com"
+          href: "mailto:contato@construtorapu.com.br"
         }
       ],
       form: {
@@ -534,13 +534,13 @@ export const contactPage: PageContent<ContactContent> = {
           title: "Investors",
           body: "Dedicated channel for conversations about the company's Paracuru operation, Minha Casa Minha Vida-aligned projects, development stages, and institutional materials for private review.",
           cta: "Send email",
-          href: "mailto:investidores@puconstrutora.com"
+          href: "mailto:invest@construtorapu.com.br"
         },
         {
           title: "Partnerships",
           body: "Channel for land opportunities, suppliers, brokers, and operating partnerships connected to the company's work in Paracuru.",
           cta: "Send email",
-          href: "mailto:contato@puconstrutora.com"
+          href: "mailto:contato@construtorapu.com.br"
         }
       ],
       form: {
@@ -584,7 +584,7 @@ export const legalPage: PageContent<StandardPageContent> = {
         {
           title: "Dados pessoais",
           body:
-            "Dados enviados por formulários, email ou WhatsApp devem ser usados apenas para responder ao assunto solicitado e encaminhar o contato ao responsável correto."
+            "Dados enviados por formulários ou email devem ser usados apenas para responder ao assunto solicitado e encaminhar o contato ao responsável correto."
         },
         {
           title: "Informações de projetos",
@@ -607,7 +607,7 @@ export const legalPage: PageContent<StandardPageContent> = {
         {
           title: "Personal data",
           body:
-            "Data submitted through forms, email, or WhatsApp should be used only to respond to the requested matter and route the contact to the appropriate person."
+            "Data submitted through forms or email should be used only to respond to the requested matter and route the contact to the appropriate person."
         },
         {
           title: "Project information",

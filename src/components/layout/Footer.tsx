@@ -27,9 +27,9 @@ export function Footer({ locale }: { locale: Locale }) {
         </nav>
         <div className="footer-contact">
           <a href={`mailto:${settings.contactEmail}`}>{settings.contactEmail}</a>
-          <a href={settings.whatsappUrl} target="_blank" rel="noreferrer">
-            WhatsApp
-          </a>
+          {settings.investorEmail ? (
+            <a href={`mailto:${settings.investorEmail}`}>{settings.investorEmail}</a>
+          ) : null}
         </div>
       </div>
       <div className="footer-bottom">
