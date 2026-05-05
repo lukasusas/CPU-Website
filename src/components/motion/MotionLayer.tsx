@@ -44,24 +44,6 @@ export function MotionLayer() {
       );
     });
 
-    const staggerRows = gsap.utils.toArray<HTMLElement>("[data-atlas-row]");
-    if (staggerRows.length > 0) {
-      gsap.fromTo(
-        staggerRows,
-        { y: 20 },
-        {
-          y: 0,
-          duration: 0.45,
-          stagger: 0.08,
-          ease: "power2.out",
-          scrollTrigger: {
-            trigger: staggerRows[0],
-            start: "top bottom-=8%"
-          }
-        }
-      );
-    }
-
     return () => {
       window.cancelAnimationFrame(rafId);
       lenis.destroy();

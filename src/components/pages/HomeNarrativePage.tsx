@@ -1,8 +1,7 @@
 import Link from "next/link";
+import { HeroProjectAtlas } from "@/components/project/HeroProjectAtlas";
 import { HomeProjectPortfolio } from "@/components/project/HomeProjectPortfolio";
-import { DataLine } from "@/components/primitives/DataLine";
 import { InvestorThesisRow } from "@/components/primitives/InvestorThesisRow";
-import { MonoMediaWindow } from "@/components/primitives/MonoMediaWindow";
 import { NarrativeBlock } from "@/components/primitives/NarrativeBlock";
 import { RouteCTA } from "@/components/primitives/RouteCTA";
 import { SectionFrame } from "@/components/primitives/SectionFrame";
@@ -68,26 +67,7 @@ export function HomeNarrativePage({
           </div>
         </div>
 
-        <div className="hero-brutal__atlas" data-reveal>
-          <p className="hero-brutal__atlas-label">{locale === "ptBR" ? "Atlas de Projetos" : "Project Atlas"}</p>
-          <div className="hero-brutal__atlas-list">
-            {projects.slice(0, 2).map((project, index) => (
-              <article className="atlas-row" key={project.id} data-atlas-row>
-                <div className="atlas-row__index">{String(index + 1).padStart(2, "0")}</div>
-                <div className="atlas-row__meta">
-                  <h3>{project.name}</h3>
-                  <p>{project.shortDescription}</p>
-                  <dl>
-                    <DataLine label={locale === "ptBR" ? "Local" : "Location"} value={project.location} />
-                    <DataLine label={locale === "ptBR" ? "Tipologia" : "Type"} value={project.projectType} />
-                    <DataLine label={locale === "ptBR" ? "Unidades" : "Units"} value={project.unitCount} />
-                  </dl>
-                </div>
-                <MonoMediaWindow src={project.image.src} alt={project.image.alt} aspect="3/2" priority={index === 0} />
-              </article>
-            ))}
-          </div>
-        </div>
+        <HeroProjectAtlas locale={locale} projects={projects} />
       </section>
 
       <SectionFrame

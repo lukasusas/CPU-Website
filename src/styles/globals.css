@@ -431,10 +431,14 @@ button {
 .hero-brutal__atlas {
   position: relative;
   z-index: 1;
+  --atlas-row-gap: clamp(var(--space-4), 2vw, var(--space-5));
+  --atlas-row-height: clamp(360px, 44vw, 450px);
   border: 1px solid var(--line-strong);
   background: color-mix(in oklch, var(--surface), black 2%);
   padding: clamp(var(--space-4), 2vw, var(--space-6));
   box-shadow: var(--shadow-elevated);
+  display: grid;
+  gap: var(--space-4);
 }
 
 .hero-brutal__atlas::before {
@@ -447,7 +451,7 @@ button {
 }
 
 .hero-brutal__atlas-label {
-  margin: 0 0 var(--space-4);
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -459,14 +463,27 @@ button {
   text-transform: uppercase;
 }
 
-.hero-brutal__atlas-list {
+.hero-brutal__atlas-viewport {
+  height: calc((var(--atlas-row-height) * 2) + var(--atlas-row-gap));
+  overflow: hidden;
+}
+
+.hero-brutal__atlas-viewport--scrollable {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable both-edges;
+}
+
+.hero-brutal__atlas-track {
   display: grid;
-  gap: var(--space-5);
+  gap: var(--atlas-row-gap);
+  will-change: transform;
 }
 
 .atlas-row {
   display: grid;
   gap: var(--space-3);
+  min-height: var(--atlas-row-height);
   border-top: 1px solid var(--line);
   padding-top: var(--space-4);
 }
@@ -487,24 +504,34 @@ button {
 
 .atlas-row__meta {
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-2);
+  grid-template-rows: auto auto 1fr;
+  min-height: 0;
 }
 
 .atlas-row__meta h3 {
   margin: 0;
+  display: -webkit-box;
   font-family: var(--font-display);
   font-size: clamp(2.1rem, 4vw, 3.8rem);
   font-weight: 700;
   line-height: 0.9;
   letter-spacing: 0.005em;
   text-transform: uppercase;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .atlas-row__meta p {
   margin: 0;
+  display: -webkit-box;
   color: var(--ink-soft);
   font-size: clamp(1rem, 1.2vw, 1.16rem);
   line-height: 1.45;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .atlas-row__meta dl,
@@ -512,6 +539,10 @@ button {
   margin: 0;
   display: grid;
   gap: var(--space-1);
+}
+
+.atlas-row__meta dl {
+  align-self: end;
 }
 
 .data-line {
@@ -1038,6 +1069,10 @@ button {
     display: none;
   }
 
+  .hero-brutal__atlas {
+    --atlas-row-height: clamp(320px, 52vw, 420px);
+  }
+
   .atlas-row {
     gap: var(--space-4);
   }
@@ -1270,6 +1305,7 @@ button {
   }
 
   .hero-brutal__atlas {
+    --atlas-row-height: clamp(222px, 18vw, 270px);
     position: sticky;
     top: calc(var(--header-height) + var(--space-5));
   }
@@ -1278,6 +1314,11 @@ button {
     grid-template-columns: auto minmax(0, 1fr) minmax(220px, 42%);
     align-items: start;
     column-gap: var(--space-4);
+  }
+
+  .atlas-row .mono-media-window {
+    height: 100%;
+    aspect-ratio: auto;
   }
 
   .atlas-row__index {
