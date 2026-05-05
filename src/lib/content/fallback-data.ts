@@ -56,8 +56,8 @@ export const fallbackDataset: SiteDataset = {
         "Accessible housing with local execution in Paracuru, Ceará."
       ),
       intro: l(
-        "A P.U. Construtora atua em Paracuru com foco em habitação acessível, incluindo empreendimentos alinhados ao Minha Casa Minha Vida, com planejamento técnico e acompanhamento próximo de obra.",
-        "P.U. Construtora develops affordable housing in Paracuru, including projects aligned with Minha Casa Minha Vida, with technical planning and close day-to-day site oversight."
+        "A P.U. Construtora atua em Paracuru com foco em habitação acessível e projetos residenciais selecionados, incluindo empreendimentos alinhados ao Minha Casa Minha Vida, com planejamento técnico e acompanhamento próximo de obra.",
+        "P.U. Construtora develops affordable housing and selected residential projects in Paracuru, including developments aligned with Minha Casa Minha Vida, with technical planning and close day-to-day site oversight."
       ),
       sections: [],
       primaryCtaLabel: l("Ver projetos", "View projects"),
@@ -80,8 +80,8 @@ export const fallbackDataset: SiteDataset = {
       eyebrow: l("Portfólio", "Portfolio"),
       title: l("Projetos residenciais em Paracuru.", "Residential projects in Paracuru."),
       intro: l(
-        "Este site apresenta uma visão institucional dos empreendimentos da P.U. Construtora. Informações comerciais são tratadas nos canais próprios de cada projeto.",
-        "This website presents an institutional overview of P.U. Construtora developments. Commercial information is handled through each project's dedicated channels."
+        "Este site apresenta uma visão institucional do portfólio da P.U. Construtora, reunindo habitação acessível e projetos residenciais selecionados em Paracuru. Informações comerciais seguem os canais próprios de cada projeto.",
+        "This website presents an institutional overview of P.U. Construtora's portfolio, combining affordable housing and selected residential projects in Paracuru. Commercial information remains with each project's dedicated channels."
       ),
       sections: [
         {
@@ -111,8 +111,8 @@ export const fallbackDataset: SiteDataset = {
         "A developer with local operations and a clear focus on affordable housing in Paracuru."
       ),
       intro: l(
-        "A P.U. Construtora concentra sua atuação em Paracuru, acompanhando de perto obra, fornecedores e produto para desenvolver moradia acessível com padrão superior ao praticado localmente na mesma faixa de preço.",
-        "P.U. Construtora concentrates its operations in Paracuru, staying close to construction, suppliers, and product decisions to deliver affordable housing with stronger quality and layout choices at local price points."
+        "A P.U. Construtora concentra sua atuação em Paracuru, acompanhando de perto obra, fornecedores e produto para desenvolver habitação acessível com padrão superior ao praticado localmente na mesma faixa de preço, além de assumir projetos residenciais privados quando a execução pede coordenação próxima.",
+        "P.U. Construtora concentrates its operations in Paracuru, staying close to construction, suppliers, and product decisions to deliver affordable housing with stronger quality and layout choices at local price points, while also taking on selected private residences when execution benefits from close coordination."
       ),
       sections: [
         {
@@ -132,8 +132,8 @@ export const fallbackDataset: SiteDataset = {
         {
           title: l("Crescimento com continuidade", "Growth with continuity"),
           body: l(
-            "O DunaMar funciona como referência de entrega e aprendizado operacional. O DunaMar 2 reaproveita essa base e amplia a atuação da empresa no mesmo mercado.",
-            "DunaMar serves as the company's first delivery and operating benchmark. DunaMar 2 builds on that base and expands the company's presence in the same market."
+            "O DunaMar funciona como referência de entrega e aprendizado operacional. O DunaMar 2 reaproveita essa base na habitação acessível, enquanto a residência privada à beira da lagoa mostra a mesma capacidade de execução em um produto mais customizado.",
+            "DunaMar serves as the company's first delivery and operating benchmark. DunaMar 2 builds on that base in affordable housing, while the lakeside private residence shows the same execution capability in a more customized product."
           )
         }
       ],
@@ -158,8 +158,8 @@ export const fallbackDataset: SiteDataset = {
         "Affordable housing in Paracuru, with close execution and a repeatable product model."
       ),
       intro: l(
-        "A empresa atua em habitação acessível em Paracuru, com foco em empreendimentos alinhados ao Minha Casa Minha Vida, acompanhamento próximo de obra e dois projetos já em curso no mesmo município.",
-        "The company operates in affordable housing in Paracuru, focused on developments aligned with Minha Casa Minha Vida, close site oversight, and two projects already underway in the same municipality."
+        "A empresa atua em Paracuru com base em habitação acessível alinhada ao Minha Casa Minha Vida e, em paralelo, executa projetos residenciais selecionados que se beneficiam do mesmo backbone local de obra, fornecedores e acompanhamento técnico.",
+        "The company operates in Paracuru with affordable housing aligned to Minha Casa Minha Vida as its base and, in parallel, delivers selected residential projects that benefit from the same local backbone of construction, suppliers, and technical oversight."
       ),
       sections: [],
       primaryCtaLabel: l("Solicitar contato", "Request contact"),
@@ -403,6 +403,64 @@ export const fallbackDataset: SiteDataset = {
         }
       ],
       order: 1
+    },
+    {
+      id: "private-house",
+      name: l("Residência Privada na Lagoa", "Lakeside Private Residence"),
+      location: l("Paracuru, Ceará", "Paracuru, Ceará"),
+      projectType: l("Residência privativa de alto padrão", "High-end private residence"),
+      unitCount: "1",
+      stage: l("Obra em andamento", "Construction in progress"),
+      shortDescription: l(
+        "Residência privada em Paracuru para cliente europeu, com cerca de 400 m² de área coberta, implantação à beira da lagoa, interiores coordenados internamente e cronograma de entrega enxuto.",
+        "Private residence in Paracuru for a European client, with roughly 400 square meters of covered area, a lakeside site, interiors coordinated in-house, and an accelerated delivery schedule."
+      ),
+      externalLabel: l("Solicitar panorama do projeto", "Request project overview"),
+      image: {
+        fallbackSrc: "/projects/private-house/private-house-main-residence-view.jpg",
+        alt: l(
+          "Vista principal da residência privada em construção em Paracuru.",
+          "Main view of the private residence under construction in Paracuru."
+        )
+      },
+      gallery: [
+        {
+          fallbackSrc: "/projects/private-house/private-house-main-residence-view.jpg",
+          alt: l(
+            "Vista principal da residência privada em construção em Paracuru.",
+            "Main view of the private residence under construction in Paracuru."
+          )
+        },
+        {
+          fallbackSrc: "/projects/private-house/private-house-lakeside-site-overview.jpg",
+          alt: l(
+            "Vista geral do terreno à beira da lagoa onde a residência privada está sendo construída.",
+            "Wide view of the lakeside site where the private residence is being built."
+          )
+        },
+        {
+          fallbackSrc: "/projects/private-house/private-house-foundation-waterfront.jpg",
+          alt: l(
+            "Etapa inicial de fundação da residência privada junto à água.",
+            "Early foundation stage of the private residence next to the water."
+          )
+        },
+        {
+          fallbackSrc: "/projects/private-house/private-house-masonry-progress.jpg",
+          alt: l(
+            "Avanço da alvenaria da residência privada em Paracuru.",
+            "Masonry progress of the private residence in Paracuru."
+          )
+        },
+        {
+          fallbackSrc: "/projects/private-house/private-house-covered-terrace-structure.jpg",
+          alt: l(
+            "Estrutura coberta da varanda da residência privada.",
+            "Covered terrace structure of the private residence."
+          )
+        }
+      ],
+      order: 2
     }
   ],
   investorSections: [
@@ -421,8 +479,8 @@ export const fallbackDataset: SiteDataset = {
       sectionKey: "pipeline",
       title: l("Projetos em andamento", "Active projects"),
       body: l(
-        "O DunaMar, com 14 apartamentos, está em fase final de obra. O DunaMar 2 já começou no mesmo município, com 22 unidades entre apartamentos e casas.",
-        "DunaMar, with 14 apartments, is near completion. DunaMar 2 has already started in the same municipality, with 22 total units across apartments and houses."
+        "O DunaMar, com 14 apartamentos, está em fase final de obra. O DunaMar 2 já começou no mesmo município, com 22 unidades entre apartamentos e casas. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores coordenados internamente e entrega prevista em prazo inferior a um ano.",
+        "DunaMar, with 14 apartments, is near completion. DunaMar 2 has already started in the same municipality, with 22 total units across apartments and houses. In parallel, the company is delivering a high-end lakeside private residence with interiors coordinated in-house and a delivery target under one year."
       ),
       order: 1
     },

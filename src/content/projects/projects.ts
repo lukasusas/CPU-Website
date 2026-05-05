@@ -71,5 +71,40 @@ export const projects: ProjectSummary[] = [
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Early stage"]
       }
     }
+  },
+  {
+    id: "private-house",
+    name: "Residência Privada na Lagoa",
+    location: "Paracuru, Ceará",
+    projectType: "Residência privativa de alto padrão",
+    unitCount: "1",
+    stage: "Obra em andamento",
+    image: {
+      src: "/projects/private-house/private-house-main-residence-view.jpg",
+      alt: {
+        ptBR: "Vista principal da residência privada em construção em Paracuru",
+        en: "Main view of the private residence under construction in Paracuru"
+      }
+    },
+    translations: {
+      ptBR: {
+        stageLabel: "Em andamento",
+        typeLabel: "Residência privativa",
+        unitsLabel: "1 residência",
+        shortDescription:
+          "Residência privada em Paracuru para cliente europeu, com cerca de 400 m² de área coberta, implantação à beira da lagoa, interiores coordenados internamente e cronograma de entrega enxuto.",
+        ctaLabel: "Solicitar panorama do projeto",
+        meta: ["Paracuru, Ceará", "Cliente europeu", "Residência privativa"]
+      },
+      en: {
+        stageLabel: "In progress",
+        typeLabel: "Private residence",
+        unitsLabel: "1 residence",
+        shortDescription:
+          "Private residence in Paracuru for a European client, with roughly 400 square meters of covered area, a lakeside site, interiors coordinated in-house, and an accelerated delivery schedule.",
+        ctaLabel: "Request project overview",
+        meta: ["Paracuru, Ceará", "European client", "Private residence"]
+      }
+    }
   }
 ];

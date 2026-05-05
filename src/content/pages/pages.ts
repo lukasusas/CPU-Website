@@ -244,7 +244,7 @@ export const projectsPage: PageContent<StandardPageContent> = {
       eyebrow: "Portfólio",
       title: "Projetos residenciais em Paracuru.",
       intro:
-        "Aqui ficam apenas resumos institucionais. Dados comerciais detalhados permanecem nos sites próprios dos projetos.",
+        "Aqui ficam resumos institucionais do portfólio da P.U. Construtora, reunindo habitação acessível e projetos residenciais selecionados em Paracuru. Dados comerciais detalhados permanecem nos canais próprios de cada empreendimento.",
       sections: [
         {
           title: "DunaMar",
@@ -255,6 +255,11 @@ export const projectsPage: PageContent<StandardPageContent> = {
           title: "DunaMar 2",
           body:
             "Segundo empreendimento da empresa em Paracuru, com 22 unidades entre apartamentos e casas e obra já em fase inicial."
+        },
+        {
+          title: "Residência Privada na Lagoa",
+          body:
+            "Residência privada de alto padrão em Paracuru, executada para cliente europeu com implantação à beira da lagoa, interiores coordenados internamente e cronograma de entrega enxuto."
         }
       ]
     },
@@ -262,7 +267,7 @@ export const projectsPage: PageContent<StandardPageContent> = {
       eyebrow: "Portfolio",
       title: "Residential projects in Paracuru.",
       intro:
-        "This page keeps corporate summaries only. Detailed commercial information remains on each dedicated project website.",
+        "This page keeps institutional summaries of P.U. Construtora's portfolio, combining affordable housing and selected residential projects in Paracuru. Detailed commercial information remains with each project's dedicated channels.",
       sections: [
         {
           title: "DunaMar",
@@ -270,9 +275,14 @@ export const projectsPage: PageContent<StandardPageContent> = {
             "P.U. Construtora's reference project, with 14 apartments in Paracuru and its own website for commercial information."
         },
         {
-          title: "Paracuru MCMV",
+          title: "DunaMar 2",
           body:
-            "Development in progress focused on accessible housing, with phased implementation and larger scale in the same territory."
+            "Second company project in Paracuru, with 22 units across apartments and houses and construction already in its early stage."
+        },
+        {
+          title: "Lakeside Private Residence",
+          body:
+            "High-end private residence in Paracuru for a European client, built on a lakeside site with in-house interior coordination and an accelerated delivery target."
         }
       ]
     }
@@ -299,7 +309,7 @@ export const aboutPage: PageContent<StandardPageContent> = {
       eyebrow: "Sobre a empresa",
       title: "Uma construtora focada em moradia acessível bem resolvida.",
       intro:
-        "A P.U. Construtora concentra sua atuação em Paracuru para desenvolver habitação acessível com acompanhamento próximo de obra, melhor leitura de custos e padrão acima do praticado localmente na mesma faixa de preço.",
+        "A P.U. Construtora concentra sua atuação em Paracuru para desenvolver habitação acessível com acompanhamento próximo de obra, melhor leitura de custos e padrão acima do praticado localmente na mesma faixa de preço, além de assumir projetos residenciais privados quando a execução pede coordenação próxima.",
       sections: [
         {
           title: "Foco local",
@@ -314,7 +324,7 @@ export const aboutPage: PageContent<StandardPageContent> = {
         {
           title: "Crescimento com continuidade",
           body:
-            "O DunaMar funciona como referência de entrega e aprendizado operacional. O DunaMar 2 reaproveita essa base para ampliar a atuação da empresa no mesmo mercado."
+            "O DunaMar funciona como referência de entrega e aprendizado operacional. O DunaMar 2 reaproveita essa base na habitação acessível, enquanto a residência privada à beira da lagoa mostra a mesma capacidade de execução em um produto mais customizado."
         }
       ],
       cta: { label: "Ver projetos", hrefKey: "projects" }
@@ -366,7 +376,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
       eyebrow: "Investidores",
       title: "Habitação acessível em Paracuru, com execução próxima e produto repetível.",
       intro:
-        "A P.U. Construtora atua em habitação acessível em Paracuru, com foco em empreendimentos alinhados ao Minha Casa Minha Vida, acompanhamento próximo de obra e dois projetos já em curso no mesmo município.",
+        "A P.U. Construtora atua em Paracuru com base em habitação acessível alinhada ao Minha Casa Minha Vida e, em paralelo, executa projetos residenciais selecionados que se beneficiam do mesmo backbone local de obra, fornecedores e acompanhamento técnico.",
       sections: [
         {
           title: "Contexto de mercado",
@@ -376,7 +386,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
         {
           title: "Projetos em andamento",
           body:
-            "O DunaMar, com 14 apartamentos, está em fase final de obra. O DunaMar 2 já começou no mesmo município, com 22 unidades entre apartamentos e casas."
+            "O DunaMar, com 14 apartamentos, está em fase final de obra. O DunaMar 2 já começou no mesmo município, com 22 unidades entre apartamentos e casas. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores coordenados internamente e entrega prevista em prazo inferior a um ano."
         },
         {
           title: "Informações institucionais",
@@ -392,7 +402,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
       eyebrow: "Investors",
       title: "Affordable housing in Paracuru, with close execution and a repeatable product model.",
       intro:
-        "P.U. Construtora operates in affordable housing in Paracuru, focused on developments aligned with Minha Casa Minha Vida, close site oversight, and two projects already underway in the same municipality.",
+        "P.U. Construtora operates in Paracuru with affordable housing aligned to Minha Casa Minha Vida as its base and, in parallel, delivers selected residential projects that benefit from the same local backbone of construction, suppliers, and technical oversight.",
       sections: [
         {
           title: "Market context",
@@ -402,7 +412,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
         {
           title: "Active projects",
           body:
-            "DunaMar, with 14 apartments, is near completion. DunaMar 2 has already started in the same municipality, with 22 total units across apartments and houses."
+            "DunaMar, with 14 apartments, is near completion. DunaMar 2 has already started in the same municipality, with 22 total units across apartments and houses. In parallel, the company is delivering a high-end lakeside private residence with interiors coordinated in-house and a delivery target under one year."
         },
         {
           title: "Institutional information",
