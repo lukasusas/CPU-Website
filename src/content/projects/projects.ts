@@ -44,6 +44,7 @@ export const projects: ProjectSummary[] = [
     projectType: "2 blocos de apartamentos e 2 casas",
     unitCount: "22",
     stage: "Obra em fase inicial",
+    externalUrl: "https://dunamar2.construtorapu.com.br/",
     image: {
       src: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
       alt: {

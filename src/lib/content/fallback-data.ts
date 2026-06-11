@@ -371,6 +371,7 @@ export const fallbackDataset: SiteDataset = {
         "Segundo empreendimento da companhia em Paracuru, com 22 unidades no total entre 2 blocos de apartamentos e 2 casas, atualmente em fase inicial de obra.",
         "The company's second project in Paracuru, with 22 total units across 2 apartment buildings and 2 houses, now in early construction."
       ),
+      externalUrl: "https://dunamar2.construtorapu.com.br/",
       externalLabel: l("Ver panorama do empreendimento", "View development overview"),
       image: {
         fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
