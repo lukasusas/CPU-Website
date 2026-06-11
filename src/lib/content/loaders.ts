@@ -47,7 +47,14 @@ export function getProjects(locale: Locale) {
       src: project.image.src,
       alt: project.image.alt[locale]
     },
-    content: project.translations[locale]
+    externalLabel: project.translations[locale].ctaLabel,
+    content: {
+      stageLabel: project.translations[locale].stageLabel,
+      typeLabel: project.translations[locale].typeLabel,
+      unitsLabel: project.translations[locale].unitsLabel,
+      shortDescription: project.translations[locale].shortDescription,
+      meta: project.translations[locale].meta
+    }
   }));
 }
 

@@ -372,7 +372,7 @@ export const fallbackDataset: SiteDataset = {
         "The company's second project in Paracuru, with 22 total units across 2 apartment buildings and 2 houses, now in early construction."
       ),
       externalUrl: "https://dunamar2.construtorapu.com.br/",
-      externalLabel: l("Ver panorama do empreendimento", "View development overview"),
+      externalLabel: l("Abrir site do projeto", "Open project website"),
       image: {
         fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
         alt: l(

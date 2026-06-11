@@ -59,7 +59,7 @@ export const projects: ProjectSummary[] = [
         unitsLabel: "22 unidades",
         shortDescription:
           "Segundo empreendimento da P.U. Construtora em Paracuru, com 22 unidades no total entre 2 blocos de apartamentos e 2 casas, já em fase inicial de obra.",
-        ctaLabel: "Ver panorama institucional",
+        ctaLabel: "Abrir site do projeto",
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Fase inicial"]
       },
       en: {
@@ -68,7 +68,7 @@ export const projects: ProjectSummary[] = [
         unitsLabel: "22 units",
         shortDescription:
           "P.U. Construtora's second project in Paracuru, with 22 total units across 2 apartment buildings and 2 houses, already in early construction.",
-        ctaLabel: "View institutional overview",
+        ctaLabel: "Open project website",
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Early stage"]
       }
     }

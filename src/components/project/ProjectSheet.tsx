@@ -4,12 +4,12 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 
 type LocalizedProject = Omit<ProjectSummary, "image" | "translations"> & {
   image: { src: string; alt: string };
+  externalLabel: string;
   content: {
     stageLabel: string;
     typeLabel: string;
     unitsLabel: string;
     shortDescription: string;
-    ctaLabel: string;
     meta: string[];
   };
 };
@@ -51,10 +51,10 @@ export function ProjectSheet({ project, compact = false }: { project: LocalizedP
         </dl>
         {project.externalUrl ? (
           <ButtonLink href={project.externalUrl} external variant="secondary">
-            {project.content.ctaLabel}
+            {project.externalLabel}
           </ButtonLink>
         ) : (
-          <span className="project-status">{project.content.ctaLabel}</span>
+          <span className="project-status">{project.externalLabel}</span>
         )}
       </div>
     </article>
