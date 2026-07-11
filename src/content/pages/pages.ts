@@ -130,7 +130,7 @@ export const homePage: PageContent<HomeContent> = {
         eyebrow: "Mercado",
         title: "Ceará costeiro, demanda habitacional e programa MCMV.",
         body:
-          "Paracuru combina crescimento local, interesse costeiro e demanda por moradia bem resolvida. A P.U. atua com foco específico nesse contexto.",
+          "Paracuru combina crescimento local, interesse costeiro e demanda por moradia bem resolvida. A Construtora P.U. atua com foco específico nesse contexto.",
         points: [
           { label: "Foco geográfico", value: "Paracuru, Ceará" },
           { label: "Produto", value: "Apartamentos e casas compactas" },
@@ -193,7 +193,7 @@ export const homePage: PageContent<HomeContent> = {
         eyebrow: "Market",
         title: "Coastal Ceará, housing demand, and the MCMV program.",
         body:
-          "Paracuru combines local growth, coastal interest, and demand for well-resolved housing. P.U. operates with a focused view of this context.",
+          "Paracuru combines local growth, coastal interest, and demand for well-resolved housing. Construtora P.U. operates with a focused view of this context.",
         points: [
           { label: "Geographic focus", value: "Paracuru, Ceará" },
           { label: "Product", value: "Apartments and compact houses" },
@@ -492,7 +492,7 @@ export const contactPage: PageContent<ContactContent> = {
   translations: {
     ptBR: {
       eyebrow: "Contato",
-      title: "Escolha o caminho certo para falar com a P.U.",
+        title: "Escolha o caminho certo para falar com a Construtora P.U.",
       intro:
         "Os canais abaixo organizam atendimento institucional, oportunidades de parceria e contatos ligados aos empreendimentos. Demandas comerciais seguem para o canal do projeto correspondente.",
       routes: [
@@ -530,7 +530,7 @@ export const contactPage: PageContent<ContactContent> = {
     },
     en: {
       eyebrow: "Contact",
-      title: "Choose the right path to reach P.U.",
+        title: "Choose the right path to reach Construtora P.U.",
       intro:
         "The channels below organize corporate contact, partnership opportunities, and inquiries related to the developments. Commercial matters should go through the relevant project channel.",
       routes: [

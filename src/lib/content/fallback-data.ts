@@ -309,7 +309,7 @@ export const fallbackDataset: SiteDataset = {
         "Direcionamento claro para investidores, parcerias e contatos institucionais.",
         "Clear routing for investors, partnerships, and corporate inquiries."
       ),
-      ctaLabel: l("Falar com a P.U.", "Contact P.U."),
+      ctaLabel: l("Falar com a Construtora P.U.", "Contact Construtora P.U."),
       ctaRouteKey: "contact",
       order: 4
     }
