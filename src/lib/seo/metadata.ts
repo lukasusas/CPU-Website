@@ -6,9 +6,10 @@ import type { Locale, RouteKey } from "@/lib/content/types";
 export async function createPageMetadata(routeKey: RouteKey, locale: Locale): Promise<Metadata> {
   const { seo, baseUrl } = await getPageMetadata(locale, routeKey);
   const canonical = routeFor(routeKey, locale);
+  const title = seo.title.replaceAll("P.U. Construtora", "Construtora P.U.");
 
   return {
-    title: seo.title,
+    title,
     description: seo.description,
     metadataBase: new URL(baseUrl),
     alternates: {
@@ -19,16 +20,16 @@ export async function createPageMetadata(routeKey: RouteKey, locale: Locale): Pr
       }
     },
     openGraph: {
-      title: seo.title,
+      title,
       description: seo.description,
-      siteName: "P.U. Construtora",
+      siteName: "Construtora P.U.",
       type: "website",
       url: canonical,
       locale: locale === "ptBR" ? "pt_BR" : "en_US"
     },
     twitter: {
       card: "summary_large_image",
-      title: seo.title,
+      title,
       description: seo.description
     }
   };

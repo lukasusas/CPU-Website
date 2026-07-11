@@ -84,12 +84,12 @@ export const homePage: PageContent<HomeContent> = {
   route: "home",
   seo: {
     ptBR: {
-      title: "P.U. Construtora | Habitação acessível em Paracuru",
+      title: "Construtora P.U. | Habitação acessível em Paracuru",
       description:
         "Site institucional da P.U. Construtora, desenvolvedora de projetos residenciais acessíveis em Paracuru, Ceará."
     },
     en: {
-      title: "P.U. Construtora | Accessible housing in Paracuru",
+      title: "Construtora P.U. | Accessible housing in Paracuru",
       description:
         "Corporate website for P.U. Construtora, a residential developer focused on accessible housing in Paracuru, Ceará."
     }
@@ -229,12 +229,12 @@ export const projectsPage: PageContent<StandardPageContent> = {
   route: "projects",
   seo: {
     ptBR: {
-      title: "Projetos | P.U. Construtora",
+      title: "Projetos | Construtora P.U.",
       description:
         "Resumo institucional dos projetos da P.U. Construtora em Paracuru, Ceará."
     },
     en: {
-      title: "Projects | P.U. Construtora",
+      title: "Projects | Construtora P.U.",
       description:
         "Corporate summary of P.U. Construtora's projects in Paracuru, Ceará."
     }
@@ -294,12 +294,12 @@ export const aboutPage: PageContent<StandardPageContent> = {
   route: "about",
   seo: {
     ptBR: {
-      title: "Sobre | P.U. Construtora",
+      title: "Sobre | Construtora P.U.",
       description:
         "Conheça a visão da P.U. Construtora para desenvolvimento habitacional acessível em Paracuru."
     },
     en: {
-      title: "About | P.U. Construtora",
+      title: "About | Construtora P.U.",
       description:
         "Learn about P.U. Construtora's view of accessible housing development in Paracuru."
     }
@@ -361,12 +361,12 @@ export const investorsPage: PageContent<InvestorsContent> = {
   route: "investors",
   seo: {
     ptBR: {
-      title: "Investidores | P.U. Construtora",
+      title: "Investidores | Construtora P.U.",
       description:
         "Informações institucionais para investidores sobre a atuação da P.U. Construtora em habitação acessível no Ceará."
     },
     en: {
-      title: "Investors | P.U. Construtora",
+      title: "Investors | Construtora P.U.",
       description:
         "Institutional investor information about P.U. Construtora's accessible housing work in Ceará."
     }
@@ -432,12 +432,12 @@ export const teamPage: PageContent<StandardPageContent> = {
   route: "team",
   seo: {
     ptBR: {
-      title: "Equipe | P.U. Construtora",
+      title: "Equipe | Construtora P.U.",
       description:
         "Estrutura de equipe da P.U. Construtora: investimento, execução local e relacionamento."
     },
     en: {
-      title: "Team | P.U. Construtora",
+      title: "Team | Construtora P.U.",
       description:
         "P.U. Construtora team structure: investment, local execution, and relationships."
     }
@@ -479,12 +479,12 @@ export const contactPage: PageContent<ContactContent> = {
   route: "contact",
   seo: {
     ptBR: {
-      title: "Contato | P.U. Construtora",
+      title: "Contato | Construtora P.U.",
       description:
         "Entre em contato com a P.U. Construtora para assuntos institucionais, investidores, parcerias ou projetos."
     },
     en: {
-      title: "Contact | P.U. Construtora",
+      title: "Contact | Construtora P.U.",
       description:
         "Contact P.U. Construtora for corporate matters, investors, partnerships, or projects."
     }
@@ -574,12 +574,12 @@ export const legalPage: PageContent<StandardPageContent> = {
   route: "legal",
   seo: {
     ptBR: {
-      title: "Legal e privacidade | P.U. Construtora",
+      title: "Legal e privacidade | Construtora P.U.",
       description:
         "Informações de privacidade, LGPD e avisos legais do site institucional da P.U. Construtora."
     },
     en: {
-      title: "Legal and privacy | P.U. Construtora",
+      title: "Legal and privacy | Construtora P.U.",
       description:
         "Privacy, LGPD, and legal information for the P.U. Construtora corporate website."
     }

@@ -4,7 +4,7 @@ const l = (ptBR: string, en?: string) => ({ ptBR, en: en ?? ptBR });
 
 export const fallbackDataset: SiteDataset = {
   settings: {
-    siteName: "P.U. Construtora",
+    siteName: "Construtora P.U.",
     legalName: "P.U. Construtora Ltda",
     baseUrl: "https://construtorapu.com.br",
     defaultLocale: "ptBR",
@@ -40,12 +40,12 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "home",
       seo: {
         ptBR: {
-          title: "P.U. Construtora | Habitação acessível em Paracuru",
+          title: "Construtora P.U. | Habitação acessível em Paracuru",
           description:
             "Página institucional da P.U. Construtora: projetos residenciais, execução local e visão de longo prazo em Paracuru, Ceará."
         },
         en: {
-          title: "P.U. Construtora | Accessible housing in Paracuru",
+          title: "Construtora P.U. | Accessible housing in Paracuru",
           description:
             "Corporate website of P.U. Construtora: residential projects, local execution, and long-term vision in Paracuru, Ceará."
         }
@@ -69,11 +69,11 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "projects",
       seo: {
         ptBR: {
-          title: "Projetos | P.U. Construtora",
+          title: "Projetos | Construtora P.U.",
           description: "Portfólio institucional dos empreendimentos da P.U. Construtora em Paracuru, Ceará."
         },
         en: {
-          title: "Projects | P.U. Construtora",
+          title: "Projects | Construtora P.U.",
           description: "Institutional portfolio of P.U. Construtora developments in Paracuru, Ceará."
         }
       },
@@ -97,11 +97,11 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "about",
       seo: {
         ptBR: {
-          title: "Sobre | P.U. Construtora",
+          title: "Sobre | Construtora P.U.",
           description: "Conheça a visão e o método da P.U. Construtora."
         },
         en: {
-          title: "About | P.U. Construtora",
+          title: "About | Construtora P.U.",
           description: "Learn about P.U. Construtora's vision and operating method."
         }
       },
@@ -144,11 +144,11 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "investors",
       seo: {
         ptBR: {
-          title: "Investidores | P.U. Construtora",
+          title: "Investidores | Construtora P.U.",
           description: "Informações institucionais para investidores nacionais e internacionais."
         },
         en: {
-          title: "Investors | P.U. Construtora",
+          title: "Investors | Construtora P.U.",
           description: "Institutional information for domestic and international investors."
         }
       },
@@ -173,11 +173,11 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "team",
       seo: {
         ptBR: {
-          title: "Equipe | P.U. Construtora",
+          title: "Equipe | Construtora P.U.",
           description: "Estrutura de equipe da P.U. Construtora."
         },
         en: {
-          title: "Team | P.U. Construtora",
+          title: "Team | Construtora P.U.",
           description: "P.U. Construtora team structure."
         }
       },
@@ -203,11 +203,11 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "contact",
       seo: {
         ptBR: {
-          title: "Contato | P.U. Construtora",
+          title: "Contato | Construtora P.U.",
           description: "Canais institucionais de contato da P.U. Construtora."
         },
         en: {
-          title: "Contact | P.U. Construtora",
+          title: "Contact | Construtora P.U.",
           description: "Corporate contact channels for P.U. Construtora."
         }
       },
@@ -223,11 +223,11 @@ export const fallbackDataset: SiteDataset = {
       pageKey: "legal",
       seo: {
         ptBR: {
-          title: "Legal | P.U. Construtora",
+          title: "Legal | Construtora P.U.",
           description: "Avisos legais e privacidade do site institucional."
         },
         en: {
-          title: "Legal | P.U. Construtora",
+          title: "Legal | Construtora P.U.",
           description: "Legal notices and privacy for the corporate website."
         }
       },

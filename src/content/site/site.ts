@@ -1,7 +1,7 @@
 import type { Localized } from "@/content/types";
 
 export const siteSettings = {
-  name: "P.U. Construtora",
+  name: "Construtora P.U.",
   legalName: "P.U. Construtora Ltda",
   baseUrl: "https://construtorapu.com.br",
   defaultLocale: "ptBR",
