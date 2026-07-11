@@ -9,6 +9,12 @@ export const siteDatasetQuery = groq`{
     contactEmail,
     investorEmail,
     whatsappUrl,
+    businessPhone,
+    streetAddress,
+    addressLocality,
+    addressRegion,
+    postalCode,
+    addressCountry,
     coordinatesLabel,
     footerSummary,
     footerLegal
@@ -26,6 +32,9 @@ export const siteDatasetQuery = groq`{
     pageKey,
     seoTitle,
     seoDescription,
+    seoSocialImage{
+      asset->
+    },
     eyebrow,
     title,
     intro,

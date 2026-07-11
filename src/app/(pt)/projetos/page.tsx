@@ -1,4 +1,5 @@
 import { ProjectsNarrativePage } from "@/components/pages/ProjectsNarrativePage";
+import { PageStructuredData } from "@/components/site/StructuredData";
 import { getProjectsPageData } from "@/lib/content/get-site-data";
 import { createPageMetadata } from "@/lib/seo/metadata";
 
@@ -8,5 +9,5 @@ export async function generateMetadata() {
 
 export default async function Page() {
   const data = await getProjectsPageData("ptBR");
-  return <ProjectsNarrativePage locale="ptBR" {...data} />;
+  return <><PageStructuredData locale="ptBR" routeKey="projects" page={data.page} projects={data.projects} /><ProjectsNarrativePage locale="ptBR" {...data} /></>;
 }

@@ -7,9 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "vercel:whoami": "NODE_TLS_REJECT_UNAUTHORIZED=0 vercel whoami",
-    "vercel:preview": "NODE_TLS_REJECT_UNAUTHORIZED=0 vercel --yes",
-    "vercel:prod": "NODE_TLS_REJECT_UNAUTHORIZED=0 vercel --prod --yes"
+    "privacy:images": "node scripts/check-public-image-metadata.mjs",
+    "privacy:repo": "node scripts/check-repository-safety.mjs",
+    "privacy:sanitize-images": "node scripts/sanitize-public-images.mjs",
+    "vercel:whoami": "vercel whoami",
+    "vercel:preview": "vercel --yes",
+    "vercel:prod": "vercel --prod --yes"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",
@@ -30,6 +33,7 @@
     "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.2.4",
+    "exiftool-vendored": "^36.0.0",
     "playwright": "^1.59.1",
     "typescript": "^5.9.3"
   }

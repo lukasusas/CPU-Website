@@ -35,6 +35,13 @@ export const pageContent = defineType({
       validation: (rule) => rule.required()
     }),
     defineField({
+      name: "seoSocialImage",
+      title: "Social Sharing Image",
+      description: "Optional 1200 x 630 image override. The branded default is used when omitted.",
+      type: "image",
+      options: { hotspot: true }
+    }),
+    defineField({
       name: "eyebrow",
       title: "Eyebrow",
       type: "localizedString"

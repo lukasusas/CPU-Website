@@ -29,6 +29,8 @@ type SiteContextData = {
     contactEmail: string;
     investorEmail: string;
     whatsappUrl?: string;
+    businessPhone?: string;
+    publicAddress?: import("./types").PublicAddress;
     footerSummary: string;
     footerLegal: string;
   };
@@ -167,6 +169,8 @@ export async function getSiteContext(locale: Locale): Promise<SiteContextData> {
       contactEmail: dataset.settings.contactEmail,
       investorEmail: dataset.settings.investorEmail,
       whatsappUrl: dataset.settings.whatsappUrl,
+      businessPhone: dataset.settings.businessPhone,
+      publicAddress: dataset.settings.publicAddress,
       footerSummary: localize(dataset.settings.footerSummary, locale),
       footerLegal: localize(dataset.settings.footerLegal, locale)
     },

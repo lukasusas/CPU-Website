@@ -2,7 +2,6 @@ import type { ReactNode } from "react";
 import { MotionLayer } from "@/components/motion/MotionLayer";
 import { getSiteContext } from "@/lib/content/get-site-data";
 import type { Locale } from "@/lib/content/types";
-import { HtmlLang } from "./HtmlLang";
 import { SiteFooter } from "./SiteFooter";
 import { SiteHeader } from "./SiteHeader";
 
@@ -16,7 +15,6 @@ export async function LocaleShell({ locale, children }: LocaleShellProps) {
 
   return (
     <>
-      <HtmlLang locale={locale} />
       <MotionLayer />
       <a className="skip-link" href="#main-content">
         {locale === "ptBR" ? "Ir para conteúdo" : "Skip to content"}

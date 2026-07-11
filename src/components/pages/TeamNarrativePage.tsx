@@ -13,7 +13,7 @@ type TeamNarrativePageProps = {
 export function TeamNarrativePage({ locale, page, team }: TeamNarrativePageProps) {
   return (
     <div className="page-stack">
-      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro} headingLevel={1}>
         {page.sections.length > 0 ? (
           <div className="narrative-grid">
             {page.sections.map((section, index) => (

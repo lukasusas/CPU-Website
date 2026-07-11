@@ -11,7 +11,7 @@ type ProjectsNarrativePageProps = {
 export function ProjectsNarrativePage({ locale, page, projects }: ProjectsNarrativePageProps) {
   return (
     <div className="page-stack">
-      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro} headingLevel={1}>
         <div className="narrative-grid">
           {page.sections.map((section, index) => (
             <article className="narrative-block" key={section.title} data-reveal>

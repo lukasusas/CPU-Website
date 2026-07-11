@@ -14,7 +14,7 @@ function externalAttrs(href: string) {
 export function ContactNarrativePage({ page, routes }: ContactNarrativePageProps) {
   return (
     <div className="page-stack">
-      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro} headingLevel={1}>
         <div className="contact-grid">
           {routes.map((route) => (
             <article className="contact-route" key={route.id} data-reveal>

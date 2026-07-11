@@ -53,6 +53,12 @@ export const siteSettings = defineType({
       title: "WhatsApp URL",
       type: "url"
     }),
+    defineField({ name: "businessPhone", title: "Public Business Phone", type: "string" }),
+    defineField({ name: "streetAddress", title: "Street Address", type: "string" }),
+    defineField({ name: "addressLocality", title: "City", type: "string" }),
+    defineField({ name: "addressRegion", title: "State", type: "string" }),
+    defineField({ name: "postalCode", title: "Postal Code", type: "string" }),
+    defineField({ name: "addressCountry", title: "Country Code", type: "string", initialValue: "BR" }),
     defineField({
       name: "coordinatesLabel",
       title: "Coordinates Label",

@@ -9,7 +9,7 @@ type LegalNarrativePageProps = {
 export function LegalNarrativePage({ page, blocks }: LegalNarrativePageProps) {
   return (
     <div className="page-stack">
-      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro} headingLevel={1}>
         <div className="narrative-grid">
           {blocks.map((block, index) => (
             <article className="narrative-block" key={block.id} data-reveal>

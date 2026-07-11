@@ -14,7 +14,7 @@ type InvestorsNarrativePageProps = {
 export function InvestorsNarrativePage({ locale, page, rows, disclaimer }: InvestorsNarrativePageProps) {
   return (
     <div className="page-stack">
-      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <SectionFrame eyebrow={page.eyebrow} title={page.title} intro={page.intro} headingLevel={1}>
         <div className="investor-rows">
           {rows.map((row, index) => (
             <InvestorThesisRow key={row.id} index={index} title={row.title} body={row.body} />

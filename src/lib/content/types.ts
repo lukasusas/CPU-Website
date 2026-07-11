@@ -14,6 +14,15 @@ export type Localized<T> = Record<Locale, T>;
 export type SeoFields = {
   title: string;
   description: string;
+  socialImage?: string;
+};
+
+export type PublicAddress = {
+  streetAddress: string;
+  addressLocality: string;
+  addressRegion: string;
+  postalCode: string;
+  addressCountry: string;
 };
 
 export type SiteSettingsVM = {
@@ -24,6 +33,8 @@ export type SiteSettingsVM = {
   contactEmail: string;
   investorEmail: string;
   whatsappUrl?: string;
+  businessPhone?: string;
+  publicAddress?: PublicAddress;
   coordinatesLabel: Localized<string>;
   footerSummary: Localized<string>;
   footerLegal: Localized<string>;

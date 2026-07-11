@@ -35,7 +35,9 @@ export function SiteFooter({
         </div>
         <nav aria-label={locale === "ptBR" ? "Links legais" : "Legal links"}>
           <Link href={routeFor("projects", locale)}>{locale === "ptBR" ? "Projetos" : "Projects"}</Link>
+          <Link href={routeFor("about", locale)}>{locale === "ptBR" ? "Sobre" : "About"}</Link>
           <Link href={routeFor("investors", locale)}>{locale === "ptBR" ? "Investidores" : "Investors"}</Link>
+          <Link href={routeFor("contact", locale)}>{locale === "ptBR" ? "Contato" : "Contact"}</Link>
           <Link href={routeFor("legal", locale)}>{locale === "ptBR" ? "Legal" : "Legal"}</Link>
         </nav>
         <div className="site-footer__contacts">

@@ -116,6 +116,17 @@ function mapLocalizedGalleryImages(input: unknown, fallback: ProjectSummaryVM["g
 function mapSettings(raw: RawSanityPayload): SiteSettingsVM {
   const fallback = fallbackDataset.settings;
   const settings = raw?.settings ?? {};
+  const addressFields = ["streetAddress", "addressLocality", "addressRegion", "postalCode", "addressCountry"] as const;
+  const address = Object.fromEntries(
+    addressFields.map((field) => [field, readOptionalString(settings[field])])
+  ) as Record<(typeof addressFields)[number], string | undefined>;
+  const hasAnyAddressField = addressFields.some((field) => Boolean(address[field]));
+  const hasCompleteAddress = addressFields.every((field) => Boolean(address[field]));
+
+  if (hasAnyAddressField && !hasCompleteAddress) {
+    throw new Error("Sanity site settings include an incomplete public business address.");
+  }
+
   return {
     siteName: readString(settings.siteName, fallback.siteName),
     legalName: readString(settings.legalName, fallback.legalName),
@@ -124,6 +135,16 @@ function mapSettings(raw: RawSanityPayload): SiteSettingsVM {
     contactEmail: readString(settings.contactEmail, fallback.contactEmail),
     investorEmail: readString(settings.investorEmail, fallback.investorEmail),
     whatsappUrl: readOptionalString(settings.whatsappUrl) ?? fallback.whatsappUrl,
+    businessPhone: readOptionalString(settings.businessPhone),
+    publicAddress: hasCompleteAddress
+      ? {
+          streetAddress: address.streetAddress!,
+          addressLocality: address.addressLocality!,
+          addressRegion: address.addressRegion!,
+          postalCode: address.postalCode!,
+          addressCountry: address.addressCountry!
+        }
+      : undefined,
     coordinatesLabel: readLocalized(settings.coordinatesLabel as LocalizedInput, fallback.coordinatesLabel),
     footerSummary: readLocalized(settings.footerSummary as LocalizedInput, fallback.footerSummary),
     footerLegal: readLocalized(settings.footerLegal as LocalizedInput, fallback.footerLegal)
@@ -169,11 +190,13 @@ function mapPages(raw: RawSanityPayload): PageContentVM[] {
         seo: {
           ptBR: {
             title: readString((item.seoTitle as LocalizedInput)?.ptBR, fallback.seo.ptBR.title),
-            description: readString((item.seoDescription as LocalizedInput)?.ptBR, fallback.seo.ptBR.description)
+            description: readString((item.seoDescription as LocalizedInput)?.ptBR, fallback.seo.ptBR.description),
+            socialImage: sanityImageUrl(((item.seoSocialImage as Record<string, unknown>)?.asset as Parameters<typeof sanityImageUrl>[0]), 1200)
           },
           en: {
             title: readString((item.seoTitle as LocalizedInput)?.en, fallback.seo.en.title),
-            description: readString((item.seoDescription as LocalizedInput)?.en, fallback.seo.en.description)
+            description: readString((item.seoDescription as LocalizedInput)?.en, fallback.seo.en.description),
+            socialImage: sanityImageUrl(((item.seoSocialImage as Record<string, unknown>)?.asset as Parameters<typeof sanityImageUrl>[0]), 1200)
           }
         },
         eyebrow: readLocalized(item.eyebrow as LocalizedInput, fallback.eyebrow),
