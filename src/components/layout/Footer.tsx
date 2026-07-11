@@ -13,7 +13,7 @@ export function Footer({ locale }: { locale: Locale }) {
       <div className="footer-grid">
         <div>
           <Link className="footer-brand" href={routeFor("home", locale)}>
-            P.U. Construtora
+            Construtora P.U.
           </Link>
           <p>{copy.footerSummary}</p>
         </div>

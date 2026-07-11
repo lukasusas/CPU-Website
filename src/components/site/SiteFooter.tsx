@@ -45,7 +45,7 @@ export function SiteFooter({
       </div>
       <div className="site-footer__bottom">
         <p>{footerLegal}</p>
-        <p>© {new Date().getFullYear()} P.U. Construtora Ltda</p>
+        <p>© {new Date().getFullYear()} Construtora P.U. Ltda</p>
       </div>
     </footer>
   );

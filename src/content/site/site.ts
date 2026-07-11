@@ -2,7 +2,7 @@ import type { Localized } from "@/content/types";
 
 export const siteSettings = {
   name: "Construtora P.U.",
-  legalName: "P.U. Construtora Ltda",
+  legalName: "Construtora P.U. Ltda",
   baseUrl: "https://construtorapu.com.br",
   defaultLocale: "ptBR",
   contactEmail: "contato@construtorapu.com.br",

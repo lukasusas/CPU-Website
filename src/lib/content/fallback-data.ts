@@ -5,7 +5,7 @@ const l = (ptBR: string, en?: string) => ({ ptBR, en: en ?? ptBR });
 export const fallbackDataset: SiteDataset = {
   settings: {
     siteName: "Construtora P.U.",
-    legalName: "P.U. Construtora Ltda",
+    legalName: "Construtora P.U. Ltda",
     baseUrl: "https://construtorapu.com.br",
     defaultLocale: "ptBR",
     contactEmail: "contato@construtorapu.com.br",
@@ -19,8 +19,8 @@ export const fallbackDataset: SiteDataset = {
       "Affordable housing in Paracuru, focused on close construction oversight, building standards, and steady growth within Minha Casa Minha Vida."
     ),
     footerLegal: l(
-      "Este site apresenta informações institucionais da P.U. Construtora. Condições comerciais, disponibilidade e atendimento de vendas são tratados nos canais próprios de cada empreendimento.",
-      "This website presents institutional information about P.U. Construtora. Commercial terms, availability, and sales support are handled through each development's dedicated channels."
+      "Este site apresenta informações institucionais da Construtora P.U. Condições comerciais, disponibilidade e atendimento de vendas são tratados nos canais próprios de cada empreendimento.",
+      "This website presents institutional information about Construtora P.U. Commercial terms, availability, and sales support are handled through each development's dedicated channels."
     )
   },
   navigation: [
@@ -42,12 +42,12 @@ export const fallbackDataset: SiteDataset = {
         ptBR: {
           title: "Construtora P.U. | Habitação acessível em Paracuru",
           description:
-            "Página institucional da P.U. Construtora: projetos residenciais, execução local e visão de longo prazo em Paracuru, Ceará."
+            "Página institucional da Construtora P.U.: projetos residenciais, execução local e visão de longo prazo em Paracuru, Ceará."
         },
         en: {
           title: "Construtora P.U. | Accessible housing in Paracuru",
           description:
-            "Corporate website of P.U. Construtora: residential projects, local execution, and long-term vision in Paracuru, Ceará."
+            "Corporate website of Construtora P.U.: residential projects, local execution, and long-term vision in Paracuru, Ceará."
         }
       },
       eyebrow: l("Paracuru, Ceará, Brasil", "Paracuru, Ceará, Brazil"),
@@ -56,8 +56,8 @@ export const fallbackDataset: SiteDataset = {
         "Accessible housing with local execution in Paracuru, Ceará."
       ),
       intro: l(
-        "A P.U. Construtora atua em Paracuru com foco em habitação acessível e projetos residenciais selecionados, incluindo empreendimentos alinhados ao Minha Casa Minha Vida, com planejamento técnico e acompanhamento próximo de obra.",
-        "P.U. Construtora develops affordable housing and selected residential projects in Paracuru, including developments aligned with Minha Casa Minha Vida, with technical planning and close day-to-day site oversight."
+        "A Construtora P.U. atua em Paracuru com foco em habitação acessível e projetos residenciais selecionados, incluindo empreendimentos alinhados ao Minha Casa Minha Vida, com planejamento técnico e acompanhamento próximo de obra.",
+        "Construtora P.U. develops affordable housing and selected residential projects in Paracuru, including developments aligned with Minha Casa Minha Vida, with technical planning and close day-to-day site oversight."
       ),
       sections: [],
       primaryCtaLabel: l("Ver projetos", "View projects"),
@@ -70,18 +70,18 @@ export const fallbackDataset: SiteDataset = {
       seo: {
         ptBR: {
           title: "Projetos | Construtora P.U.",
-          description: "Portfólio institucional dos empreendimentos da P.U. Construtora em Paracuru, Ceará."
+          description: "Portfólio institucional dos empreendimentos da Construtora P.U. em Paracuru, Ceará."
         },
         en: {
           title: "Projects | Construtora P.U.",
-          description: "Institutional portfolio of P.U. Construtora developments in Paracuru, Ceará."
+          description: "Institutional portfolio of Construtora P.U. developments in Paracuru, Ceará."
         }
       },
       eyebrow: l("Portfólio", "Portfolio"),
       title: l("Projetos residenciais em Paracuru.", "Residential projects in Paracuru."),
       intro: l(
-        "Este site apresenta uma visão institucional do portfólio da P.U. Construtora, reunindo habitação acessível e projetos residenciais selecionados em Paracuru. Informações comerciais seguem os canais próprios de cada projeto.",
-        "This website presents an institutional overview of P.U. Construtora's portfolio, combining affordable housing and selected residential projects in Paracuru. Commercial information remains with each project's dedicated channels."
+        "Este site apresenta uma visão institucional do portfólio da Construtora P.U., reunindo habitação acessível e projetos residenciais selecionados em Paracuru. Informações comerciais seguem os canais próprios de cada projeto.",
+        "This website presents an institutional overview of Construtora P.U.'s portfolio, combining affordable housing and selected residential projects in Paracuru. Commercial information remains with each project's dedicated channels."
       ),
       sections: [
         {
@@ -98,11 +98,11 @@ export const fallbackDataset: SiteDataset = {
       seo: {
         ptBR: {
           title: "Sobre | Construtora P.U.",
-          description: "Conheça a visão e o método da P.U. Construtora."
+          description: "Conheça a visão e o método da Construtora P.U."
         },
         en: {
           title: "About | Construtora P.U.",
-          description: "Learn about P.U. Construtora's vision and operating method."
+          description: "Learn about Construtora P.U.'s vision and operating method."
         }
       },
       eyebrow: l("Sobre", "About"),
@@ -111,8 +111,8 @@ export const fallbackDataset: SiteDataset = {
         "A developer with local operations and a clear focus on affordable housing in Paracuru."
       ),
       intro: l(
-        "A P.U. Construtora concentra sua atuação em Paracuru, acompanhando de perto obra, fornecedores e produto para desenvolver habitação acessível com padrão superior ao praticado localmente na mesma faixa de preço, além de assumir projetos residenciais privados quando a execução pede coordenação próxima.",
-        "P.U. Construtora concentrates its operations in Paracuru, staying close to construction, suppliers, and product decisions to deliver affordable housing with stronger quality and layout choices at local price points, while also taking on selected private residences when execution benefits from close coordination."
+        "A Construtora P.U. concentra sua atuação em Paracuru, acompanhando de perto obra, fornecedores e produto para desenvolver habitação acessível com padrão superior ao praticado localmente na mesma faixa de preço, além de assumir projetos residenciais privados quando a execução pede coordenação próxima.",
+        "Construtora P.U. concentrates its operations in Paracuru, staying close to construction, suppliers, and product decisions to deliver affordable housing with stronger quality and layout choices at local price points, while also taking on selected private residences when execution benefits from close coordination."
       ),
       sections: [
         {
@@ -174,11 +174,11 @@ export const fallbackDataset: SiteDataset = {
       seo: {
         ptBR: {
           title: "Equipe | Construtora P.U.",
-          description: "Estrutura de equipe da P.U. Construtora."
+          description: "Estrutura de equipe da Construtora P.U."
         },
         en: {
           title: "Team | Construtora P.U.",
-          description: "P.U. Construtora team structure."
+          description: "Construtora P.U. team structure."
         }
       },
       eyebrow: l("Equipe", "Team"),
@@ -204,11 +204,11 @@ export const fallbackDataset: SiteDataset = {
       seo: {
         ptBR: {
           title: "Contato | Construtora P.U.",
-          description: "Canais institucionais de contato da P.U. Construtora."
+          description: "Canais institucionais de contato da Construtora P.U."
         },
         en: {
           title: "Contact | Construtora P.U.",
-          description: "Corporate contact channels for P.U. Construtora."
+          description: "Corporate contact channels for Construtora P.U."
         }
       },
       eyebrow: l("Contato", "Contact"),
@@ -323,8 +323,8 @@ export const fallbackDataset: SiteDataset = {
       unitCount: "14",
       stage: l("Acabamentos finais e certificação", "Final finishes and certification"),
       shortDescription: l(
-        "Primeiro empreendimento da P.U. Construtora em Paracuru, com 14 apartamentos. Está em acabamentos finais e certificação, consolidando a referência inicial de entrega e padrão construtivo da empresa.",
-        "The company's first project in Paracuru, with 14 apartments. It is in final finishes and certification, consolidating P.U. Construtora's first delivery and quality benchmark."
+        "Primeiro empreendimento da Construtora P.U. em Paracuru, com 14 apartamentos. Está em acabamentos finais e certificação, consolidando a referência inicial de entrega e padrão construtivo da empresa.",
+        "The company's first project in Paracuru, with 14 apartments. It is in final finishes and certification, consolidating Construtora P.U.'s first delivery and quality benchmark."
       ),
       externalUrl: "https://dunamar.construtorapu.com.br",
       externalLabel: l("Abrir site do projeto", "Open project website"),

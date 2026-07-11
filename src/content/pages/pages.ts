@@ -86,12 +86,12 @@ export const homePage: PageContent<HomeContent> = {
     ptBR: {
       title: "Construtora P.U. | Habitação acessível em Paracuru",
       description:
-        "Site institucional da P.U. Construtora, desenvolvedora de projetos residenciais acessíveis em Paracuru, Ceará."
+        "Site institucional da Construtora P.U., desenvolvedora de projetos residenciais acessíveis em Paracuru, Ceará."
     },
     en: {
       title: "Construtora P.U. | Accessible housing in Paracuru",
       description:
-        "Corporate website for P.U. Construtora, a residential developer focused on accessible housing in Paracuru, Ceará."
+        "Corporate website for Construtora P.U., a residential developer focused on accessible housing in Paracuru, Ceará."
     }
   },
   translations: {
@@ -99,7 +99,7 @@ export const homePage: PageContent<HomeContent> = {
       eyebrow: "Paracuru, Ceará, Brasil",
       headline: "Habitação acessível com execução local em Paracuru, Ceará.",
       lead:
-        "A P.U. Construtora desenvolve projetos residenciais práticos, bem planejados e construídos para entregar valor real em mercados locais.",
+        "A Construtora P.U. desenvolve projetos residenciais práticos, bem planejados e construídos para entregar valor real em mercados locais.",
       primaryCta: "Ver projetos",
       secondaryCta: "Investidores",
       atlasLabel: "Atlas de desenvolvimento",
@@ -152,7 +152,7 @@ export const homePage: PageContent<HomeContent> = {
         cta: "Conhecer equipe"
       },
       contact: {
-        title: "Fale com a P.U. Construtora",
+        title: "Fale com a Construtora P.U.",
         body:
           "Escolha o caminho certo para contato institucional, investidores, parcerias ou informações sobre projetos.",
         cta: "Ir para contato"
@@ -162,7 +162,7 @@ export const homePage: PageContent<HomeContent> = {
       eyebrow: "Paracuru, Ceará, Brazil",
       headline: "Accessible housing with local execution in Paracuru, Ceará.",
       lead:
-        "P.U. Construtora develops practical, well-planned residential projects built to create real value in local markets.",
+        "Construtora P.U. develops practical, well-planned residential projects built to create real value in local markets.",
       primaryCta: "View projects",
       secondaryCta: "Investors",
       atlasLabel: "Development atlas",
@@ -215,7 +215,7 @@ export const homePage: PageContent<HomeContent> = {
         cta: "Meet the team"
       },
       contact: {
-        title: "Contact P.U. Construtora",
+        title: "Contact Construtora P.U.",
         body:
           "Choose the right path for corporate contact, investors, partnerships, or project information.",
         cta: "Go to contact"
@@ -231,12 +231,12 @@ export const projectsPage: PageContent<StandardPageContent> = {
     ptBR: {
       title: "Projetos | Construtora P.U.",
       description:
-        "Resumo institucional dos projetos da P.U. Construtora em Paracuru, Ceará."
+        "Resumo institucional dos projetos da Construtora P.U. em Paracuru, Ceará."
     },
     en: {
       title: "Projects | Construtora P.U.",
       description:
-        "Corporate summary of P.U. Construtora's projects in Paracuru, Ceará."
+        "Corporate summary of Construtora P.U.'s projects in Paracuru, Ceará."
     }
   },
   translations: {
@@ -244,12 +244,12 @@ export const projectsPage: PageContent<StandardPageContent> = {
       eyebrow: "Portfólio",
       title: "Projetos residenciais em Paracuru.",
       intro:
-        "Aqui ficam resumos institucionais do portfólio da P.U. Construtora, reunindo habitação acessível e projetos residenciais selecionados em Paracuru. Dados comerciais detalhados permanecem nos canais próprios de cada empreendimento.",
+        "Aqui ficam resumos institucionais do portfólio da Construtora P.U., reunindo habitação acessível e projetos residenciais selecionados em Paracuru. Dados comerciais detalhados permanecem nos canais próprios de cada empreendimento.",
       sections: [
         {
           title: "DunaMar",
           body:
-            "Projeto referência da P.U. Construtora, com 14 apartamentos em Paracuru, agora em acabamentos finais e certificação, e site próprio para informações comerciais."
+            "Projeto referência da Construtora P.U., com 14 apartamentos em Paracuru, agora em acabamentos finais e certificação, e site próprio para informações comerciais."
         },
         {
           title: "DunaMar 2",
@@ -267,12 +267,12 @@ export const projectsPage: PageContent<StandardPageContent> = {
       eyebrow: "Portfolio",
       title: "Residential projects in Paracuru.",
       intro:
-        "This page keeps institutional summaries of P.U. Construtora's portfolio, combining affordable housing and selected residential projects in Paracuru. Detailed commercial information remains with each project's dedicated channels.",
+        "This page keeps institutional summaries of Construtora P.U.'s portfolio, combining affordable housing and selected residential projects in Paracuru. Detailed commercial information remains with each project's dedicated channels.",
       sections: [
         {
           title: "DunaMar",
           body:
-            "P.U. Construtora's reference project, with 14 apartments in Paracuru, now in final finishes and certification, and its own website for commercial information."
+            "Construtora P.U.'s reference project, with 14 apartments in Paracuru, now in final finishes and certification, and its own website for commercial information."
         },
         {
           title: "DunaMar 2",
@@ -296,12 +296,12 @@ export const aboutPage: PageContent<StandardPageContent> = {
     ptBR: {
       title: "Sobre | Construtora P.U.",
       description:
-        "Conheça a visão da P.U. Construtora para desenvolvimento habitacional acessível em Paracuru."
+        "Conheça a visão da Construtora P.U. para desenvolvimento habitacional acessível em Paracuru."
     },
     en: {
       title: "About | Construtora P.U.",
       description:
-        "Learn about P.U. Construtora's view of accessible housing development in Paracuru."
+        "Learn about Construtora P.U.'s view of accessible housing development in Paracuru."
     }
   },
   translations: {
@@ -309,7 +309,7 @@ export const aboutPage: PageContent<StandardPageContent> = {
       eyebrow: "Sobre a empresa",
       title: "Uma construtora focada em moradia acessível bem resolvida.",
       intro:
-        "A P.U. Construtora concentra sua atuação em Paracuru para desenvolver habitação acessível com acompanhamento próximo de obra, melhor leitura de custos e padrão acima do praticado localmente na mesma faixa de preço, além de assumir projetos residenciais privados quando a execução pede coordenação próxima.",
+        "A Construtora P.U. concentra sua atuação em Paracuru para desenvolver habitação acessível com acompanhamento próximo de obra, melhor leitura de custos e padrão acima do praticado localmente na mesma faixa de preço, além de assumir projetos residenciais privados quando a execução pede coordenação próxima.",
       sections: [
         {
           title: "Foco local",
@@ -333,7 +333,7 @@ export const aboutPage: PageContent<StandardPageContent> = {
       eyebrow: "About the company",
       title: "A developer focused on well-resolved accessible housing.",
       intro:
-        "P.U. Construtora exists to develop practical housing projects with quality above the local baseline and operations focused on markets the team understands closely.",
+        "Construtora P.U. exists to develop practical housing projects with quality above the local baseline and operations focused on markets the team understands closely.",
       sections: [
         {
           title: "Local focus",
@@ -363,12 +363,12 @@ export const investorsPage: PageContent<InvestorsContent> = {
     ptBR: {
       title: "Investidores | Construtora P.U.",
       description:
-        "Informações institucionais para investidores sobre a atuação da P.U. Construtora em habitação acessível no Ceará."
+        "Informações institucionais para investidores sobre a atuação da Construtora P.U. em habitação acessível no Ceará."
     },
     en: {
       title: "Investors | Construtora P.U.",
       description:
-        "Institutional investor information about P.U. Construtora's accessible housing work in Ceará."
+        "Institutional investor information about Construtora P.U.'s accessible housing work in Ceará."
     }
   },
   translations: {
@@ -376,7 +376,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
       eyebrow: "Investidores",
       title: "Habitação acessível em Paracuru, com execução próxima e produto repetível.",
       intro:
-        "A P.U. Construtora atua em Paracuru com base em habitação acessível alinhada ao Minha Casa Minha Vida e, em paralelo, executa projetos residenciais selecionados que se beneficiam do mesmo backbone local de obra, fornecedores e acompanhamento técnico.",
+        "A Construtora P.U. atua em Paracuru com base em habitação acessível alinhada ao Minha Casa Minha Vida e, em paralelo, executa projetos residenciais selecionados que se beneficiam do mesmo backbone local de obra, fornecedores e acompanhamento técnico.",
       sections: [
         {
           title: "Contexto de mercado",
@@ -402,7 +402,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
       eyebrow: "Investors",
       title: "Affordable housing in Paracuru, with close execution and a repeatable product model.",
       intro:
-        "P.U. Construtora operates in Paracuru with affordable housing aligned to Minha Casa Minha Vida as its base and, in parallel, delivers selected residential projects that benefit from the same local backbone of construction, suppliers, and technical oversight.",
+        "Construtora P.U. operates in Paracuru with affordable housing aligned to Minha Casa Minha Vida as its base and, in parallel, delivers selected residential projects that benefit from the same local backbone of construction, suppliers, and technical oversight.",
       sections: [
         {
           title: "Market context",
@@ -434,12 +434,12 @@ export const teamPage: PageContent<StandardPageContent> = {
     ptBR: {
       title: "Equipe | Construtora P.U.",
       description:
-        "Estrutura de equipe da P.U. Construtora: investimento, execução local e relacionamento."
+        "Estrutura de equipe da Construtora P.U.: investimento, execução local e relacionamento."
     },
     en: {
       title: "Team | Construtora P.U.",
       description:
-        "P.U. Construtora team structure: investment, local execution, and relationships."
+        "Construtora P.U. team structure: investment, local execution, and relationships."
     }
   },
   translations: {
@@ -481,12 +481,12 @@ export const contactPage: PageContent<ContactContent> = {
     ptBR: {
       title: "Contato | Construtora P.U.",
       description:
-        "Entre em contato com a P.U. Construtora para assuntos institucionais, investidores, parcerias ou projetos."
+        "Entre em contato com a Construtora P.U. para assuntos institucionais, investidores, parcerias ou projetos."
     },
     en: {
       title: "Contact | Construtora P.U.",
       description:
-        "Contact P.U. Construtora for corporate matters, investors, partnerships, or projects."
+        "Contact Construtora P.U. for corporate matters, investors, partnerships, or projects."
     }
   },
   translations: {
@@ -576,12 +576,12 @@ export const legalPage: PageContent<StandardPageContent> = {
     ptBR: {
       title: "Legal e privacidade | Construtora P.U.",
       description:
-        "Informações de privacidade, LGPD e avisos legais do site institucional da P.U. Construtora."
+        "Informações de privacidade, LGPD e avisos legais do site institucional da Construtora P.U."
     },
     en: {
       title: "Legal and privacy | Construtora P.U.",
       description:
-        "Privacy, LGPD, and legal information for the P.U. Construtora corporate website."
+        "Privacy, LGPD, and legal information for the Construtora P.U. corporate website."
     }
   },
   translations: {

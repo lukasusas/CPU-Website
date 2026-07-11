@@ -13,8 +13,8 @@ export const pageVisuals: Partial<Record<RouteKey, PageVisual[]>> = {
       id: "projects-render-day",
       src: "/assets/library/dunamar-render-day.jpg",
       alt: {
-        ptBR: "Render diurno de unidades residenciais da P.U. Construtora.",
-        en: "Daytime render of P.U. Construtora residential units."
+        ptBR: "Render diurno de unidades residenciais da Construtora P.U.",
+        en: "Daytime render of Construtora P.U. residential units."
       },
       label: {
         ptBR: "Estudo arquitetônico",

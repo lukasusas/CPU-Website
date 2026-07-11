@@ -22,7 +22,7 @@ export const projects: ProjectSummary[] = [
         typeLabel: "Apartamentos",
         unitsLabel: "14 unidades",
         shortDescription:
-          "Primeiro empreendimento da P.U. Construtora em Paracuru, com 14 apartamentos em acabamentos finais e certificação. É a referência inicial de entrega e padrão construtivo da empresa.",
+          "Primeiro empreendimento da Construtora P.U. em Paracuru, com 14 apartamentos em acabamentos finais e certificação. É a referência inicial de entrega e padrão construtivo da empresa.",
         ctaLabel: "Abrir site do projeto",
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Acabamentos e certificação"]
       },
@@ -31,7 +31,7 @@ export const projects: ProjectSummary[] = [
         typeLabel: "Apartments",
         unitsLabel: "14 units",
         shortDescription:
-          "P.U. Construtora's first project in Paracuru, with 14 apartments in final finishes and certification. It serves as the company's first delivery and quality benchmark.",
+          "Construtora P.U.'s first project in Paracuru, with 14 apartments in final finishes and certification. It serves as the company's first delivery and quality benchmark.",
         ctaLabel: "Open project website",
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Finishes and certification"]
       }
@@ -58,7 +58,7 @@ export const projects: ProjectSummary[] = [
         typeLabel: "2 blocos + 2 casas",
         unitsLabel: "22 unidades",
         shortDescription:
-          "Segundo empreendimento da P.U. Construtora em Paracuru, com 22 unidades entre 2 blocos de apartamentos e 2 casas. O Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as casas compõem a terceira fase planejada.",
+          "Segundo empreendimento da Construtora P.U. em Paracuru, com 22 unidades entre 2 blocos de apartamentos e 2 casas. O Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as casas compõem a terceira fase planejada.",
         ctaLabel: "Abrir site do projeto",
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Obra em andamento"]
       },
@@ -67,7 +67,7 @@ export const projects: ProjectSummary[] = [
         typeLabel: "2 buildings + 2 houses",
         unitsLabel: "22 units",
         shortDescription:
-          "P.U. Construtora's second project in Paracuru, with 22 units across 2 apartment buildings and 2 houses. Block 1 is nearing completion, Block 2 is already under construction, and the houses form the planned third phase.",
+          "Construtora P.U.'s second project in Paracuru, with 22 units across 2 apartment buildings and 2 houses. Block 1 is nearing completion, Block 2 is already under construction, and the houses form the planned third phase.",
         ctaLabel: "Open project website",
         meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Active construction"]
       }

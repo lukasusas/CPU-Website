@@ -37,11 +37,11 @@ export function Header({
 
   return (
     <header className="site-header">
-      <Link className="brand" href={routeFor("home", locale)} aria-label="P.U. Construtora">
+      <Link className="brand" href={routeFor("home", locale)} aria-label="Construtora P.U.">
         <span className="brand-mark" aria-hidden="true">
           PU
         </span>
-        <span className="brand-text">P.U. Construtora</span>
+        <span className="brand-text">Construtora P.U.</span>
       </Link>
 
       <nav className="desktop-nav" aria-label="Principal">
@@ -77,7 +77,7 @@ export function Header({
       <div className="mobile-panel" id="mobile-navigation" data-open={open}>
         <div className="mobile-panel__inner">
           <div className="mobile-panel__top">
-            <span>P.U. Construtora</span>
+            <span>Construtora P.U.</span>
             <button type="button" onClick={() => setOpen(false)}>
               {closeMenu}
             </button>
