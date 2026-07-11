@@ -132,8 +132,8 @@ export const fallbackDataset: SiteDataset = {
         {
           title: l("Crescimento com continuidade", "Growth with continuity"),
           body: l(
-            "O DunaMar funciona como referência de entrega e aprendizado operacional. O DunaMar 2 reaproveita essa base na habitação acessível, enquanto a residência privada à beira da lagoa mostra a mesma capacidade de execução em um produto mais customizado.",
-            "DunaMar serves as the company's first delivery and operating benchmark. DunaMar 2 builds on that base in affordable housing, while the lakeside private residence shows the same execution capability in a more customized product."
+            "O DunaMar consolida o padrão de entrega e aprendizado operacional da empresa. O DunaMar 2 aplica essa base em uma obra de maior escala, com o Bloco 1 próximo da conclusão, o Bloco 2 em execução e as casas previstas para a terceira fase. A residência privada à beira da lagoa demonstra a mesma capacidade de coordenação em um produto mais personalizado.",
+            "DunaMar consolidates the company's delivery standard and operating learning. DunaMar 2 applies that base at a larger scale, with Block 1 nearing completion, Block 2 under construction, and the houses planned for the third phase. The lakeside private residence demonstrates the same coordination capability in a more customized product."
           )
         }
       ],
@@ -321,10 +321,10 @@ export const fallbackDataset: SiteDataset = {
       location: l("Paracuru, Ceará", "Paracuru, Ceará"),
       projectType: l("Apartamentos", "Apartments"),
       unitCount: "14",
-      stage: l("Obra em fase final", "Final construction stage"),
+      stage: l("Acabamentos finais e certificação", "Final finishes and certification"),
       shortDescription: l(
-        "Primeiro empreendimento da P.U. Construtora em Paracuru, com 14 apartamentos e obra em fase final. É a referência inicial de entrega e padrão construtivo da empresa.",
-        "The company's first project in Paracuru, with 14 apartments and construction near completion. It serves as P.U. Construtora's first delivery benchmark and quality reference."
+        "Primeiro empreendimento da P.U. Construtora em Paracuru, com 14 apartamentos. Está em acabamentos finais e certificação, consolidando a referência inicial de entrega e padrão construtivo da empresa.",
+        "The company's first project in Paracuru, with 14 apartments. It is in final finishes and certification, consolidating P.U. Construtora's first delivery and quality benchmark."
       ),
       externalUrl: "https://dunamar.construtorapu.com.br",
       externalLabel: l("Abrir site do projeto", "Open project website"),
@@ -366,26 +366,26 @@ export const fallbackDataset: SiteDataset = {
       location: l("Paracuru, Ceará", "Paracuru, Ceará"),
       projectType: l("2 blocos de apartamentos e 2 casas", "2 apartment buildings and 2 houses"),
       unitCount: "22",
-      stage: l("Obra em fase inicial", "Early construction stage"),
+      stage: l("Obra em andamento", "Active construction"),
       shortDescription: l(
-        "Segundo empreendimento da companhia em Paracuru, com 22 unidades no total entre 2 blocos de apartamentos e 2 casas, atualmente em fase inicial de obra.",
-        "The company's second project in Paracuru, with 22 total units across 2 apartment buildings and 2 houses, now in early construction."
+        "Segundo empreendimento da companhia em Paracuru, com 22 unidades entre 2 blocos de apartamentos e 2 casas. O Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as casas compõem a terceira fase planejada.",
+        "The company's second project in Paracuru, with 22 units across 2 apartment buildings and 2 houses. Block 1 is nearing completion, Block 2 is already under construction, and the houses form the planned third phase."
       ),
       externalUrl: "https://dunamar2.construtorapu.com.br/",
       externalLabel: l("Abrir site do projeto", "Open project website"),
       image: {
         fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
         alt: l(
-          "Vista aérea do empreendimento DunaMar 2 em fase inicial de obra.",
-          "Aerial view of DunaMar 2 in early construction."
+          "Vista aérea do empreendimento DunaMar 2 em obra.",
+          "Aerial view of DunaMar 2 under construction."
         )
       },
       gallery: [
         {
           fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
           alt: l(
-            "Vista aérea do empreendimento DunaMar 2 em fase inicial de obra.",
-            "Aerial view of DunaMar 2 in early construction."
+            "Vista aérea do empreendimento DunaMar 2 em obra.",
+            "Aerial view of DunaMar 2 under construction."
           )
         },
         {
@@ -413,8 +413,8 @@ export const fallbackDataset: SiteDataset = {
       unitCount: "1",
       stage: l("Obra em andamento", "Construction in progress"),
       shortDescription: l(
-        "Residência privada em Paracuru para cliente europeu, com cerca de 400 m² de área coberta, implantação à beira da lagoa, interiores coordenados internamente e cronograma de entrega enxuto.",
-        "Private residence in Paracuru for a European client, with roughly 400 square meters of covered area, a lakeside site, interiors coordinated in-house, and an accelerated delivery schedule."
+        "Residência privada em Paracuru para cliente europeu, com cerca de 400 m² de área coberta e implantação à beira da lagoa. O projeto inclui coordenação interna de interiores, mobiliário e materiais, com entrega integral, incluindo documentação, prevista em menos de um ano.",
+        "Private residence in Paracuru for a European client, with roughly 400 square meters of covered area on a lakeside site. The project includes in-house interior, furniture, and material coordination, with full delivery, including documentation, planned in under one year."
       ),
       externalLabel: l("Solicitar panorama do projeto", "Request project overview"),
       image: {
@@ -480,8 +480,8 @@ export const fallbackDataset: SiteDataset = {
       sectionKey: "pipeline",
       title: l("Projetos em andamento", "Active projects"),
       body: l(
-        "O DunaMar, com 14 apartamentos, está em fase final de obra. O DunaMar 2 já começou no mesmo município, com 22 unidades entre apartamentos e casas. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores coordenados internamente e entrega prevista em prazo inferior a um ano.",
-        "DunaMar, with 14 apartments, is near completion. DunaMar 2 has already started in the same municipality, with 22 total units across apartments and houses. In parallel, the company is delivering a high-end lakeside private residence with interiors coordinated in-house and a delivery target under one year."
+        "O DunaMar, com 14 apartamentos, está em acabamentos finais e certificação. No DunaMar 2, o Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as duas casas permanecem previstas para a terceira fase. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores, mobiliário e materiais coordenados internamente.",
+        "DunaMar, with 14 apartments, is in final finishes and certification. At DunaMar 2, Block 1 is nearing completion, Block 2 is already under construction, and the two houses remain planned for the third phase. In parallel, the company is delivering a high-end lakeside private residence with interiors, furniture, and materials coordinated in-house."
       ),
       order: 1
     },
@@ -564,11 +564,11 @@ export const fallbackDataset: SiteDataset = {
       id: "contact-buyers",
       title: l("Projetos e compradores", "Projects and buyers"),
       body: l(
-        "Para informações comerciais, andamento de atendimento e detalhes do DunaMar, utilize o site dedicado do empreendimento. O site institucional não centraliza disponibilidade ou condições de venda.",
-        "For commercial information, buyer support, and DunaMar project details, use the dedicated project website. The corporate website does not centralize availability or sales terms."
+        "Para informações comerciais, andamento de atendimento e detalhes do DunaMar ou DunaMar 2, utilize o site dedicado de cada empreendimento. O site institucional não centraliza disponibilidade ou condições de venda.",
+        "For commercial information, buyer support, and details about DunaMar or DunaMar 2, use each development's dedicated website. The corporate website does not centralize availability or sales terms."
       ),
-      ctaLabel: l("Abrir DunaMar", "Open DunaMar"),
-      href: "https://dunamar.construtorapu.com.br",
+      ctaLabel: l("Ver projetos", "View projects"),
+      href: "/projetos",
       order: 0
     },
     {

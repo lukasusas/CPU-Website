@@ -7,7 +7,7 @@ export const projects: ProjectSummary[] = [
     location: "Paracuru, Ceará",
     projectType: "Apartamentos",
     unitCount: "14",
-    stage: "Obra em fase final",
+    stage: "Acabamentos finais e certificação",
     externalUrl: "https://dunamar.construtorapu.com.br",
     image: {
       src: "/projects/dunamar/dunamar-render-front-elevation.jpg",
@@ -18,22 +18,22 @@ export const projects: ProjectSummary[] = [
     },
     translations: {
       ptBR: {
-        stageLabel: "Fase final",
+        stageLabel: "Acabamentos e certificação",
         typeLabel: "Apartamentos",
         unitsLabel: "14 unidades",
         shortDescription:
-          "O primeiro projeto da P.U. Construtora em Paracuru, com apartamentos planejados para entregar mais qualidade, desenho e aproveitamento pelo valor local.",
+          "Primeiro empreendimento da P.U. Construtora em Paracuru, com 14 apartamentos em acabamentos finais e certificação. É a referência inicial de entrega e padrão construtivo da empresa.",
         ctaLabel: "Abrir site do projeto",
-        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Projeto referência"]
+        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Acabamentos e certificação"]
       },
       en: {
-        stageLabel: "Final stage",
+        stageLabel: "Finishes and certification",
         typeLabel: "Apartments",
         unitsLabel: "14 units",
         shortDescription:
-          "P.U. Construtora's first project in Paracuru, designed to deliver better quality, planning, and layout value at local accessible price points.",
+          "P.U. Construtora's first project in Paracuru, with 14 apartments in final finishes and certification. It serves as the company's first delivery and quality benchmark.",
         ctaLabel: "Open project website",
-        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Reference project"]
+        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Finishes and certification"]
       }
     }
   },
@@ -43,33 +43,33 @@ export const projects: ProjectSummary[] = [
     location: "Paracuru, Ceará",
     projectType: "2 blocos de apartamentos e 2 casas",
     unitCount: "22",
-    stage: "Obra em fase inicial",
+    stage: "Obra em andamento",
     externalUrl: "https://dunamar2.construtorapu.com.br/",
     image: {
       src: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
       alt: {
-        ptBR: "Vista aérea do empreendimento DunaMar 2 em fase inicial de obra",
-        en: "Aerial view of DunaMar 2 in early construction"
+        ptBR: "Vista aérea do empreendimento DunaMar 2 em obra",
+        en: "Aerial view of DunaMar 2 under construction"
       }
     },
     translations: {
       ptBR: {
-        stageLabel: "Fase inicial",
+        stageLabel: "Obra em andamento",
         typeLabel: "2 blocos + 2 casas",
         unitsLabel: "22 unidades",
         shortDescription:
-          "Segundo empreendimento da P.U. Construtora em Paracuru, com 22 unidades no total entre 2 blocos de apartamentos e 2 casas, já em fase inicial de obra.",
+          "Segundo empreendimento da P.U. Construtora em Paracuru, com 22 unidades entre 2 blocos de apartamentos e 2 casas. O Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as casas compõem a terceira fase planejada.",
         ctaLabel: "Abrir site do projeto",
-        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Fase inicial"]
+        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Obra em andamento"]
       },
       en: {
-        stageLabel: "Early stage",
+        stageLabel: "Active construction",
         typeLabel: "2 buildings + 2 houses",
         unitsLabel: "22 units",
         shortDescription:
-          "P.U. Construtora's second project in Paracuru, with 22 total units across 2 apartment buildings and 2 houses, already in early construction.",
+          "P.U. Construtora's second project in Paracuru, with 22 units across 2 apartment buildings and 2 houses. Block 1 is nearing completion, Block 2 is already under construction, and the houses form the planned third phase.",
         ctaLabel: "Open project website",
-        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Early stage"]
+        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Active construction"]
       }
     }
   },
@@ -93,7 +93,7 @@ export const projects: ProjectSummary[] = [
         typeLabel: "Residência privativa",
         unitsLabel: "1 residência",
         shortDescription:
-          "Residência privada em Paracuru para cliente europeu, com cerca de 400 m² de área coberta, implantação à beira da lagoa, interiores coordenados internamente e cronograma de entrega enxuto.",
+          "Residência privada em Paracuru para cliente europeu, com cerca de 400 m² de área coberta à beira da lagoa. O projeto inclui interiores, mobiliário e materiais coordenados internamente, com entrega integral prevista em menos de um ano.",
         ctaLabel: "Solicitar panorama do projeto",
         meta: ["Paracuru, Ceará", "Cliente europeu", "Residência privativa"]
       },
@@ -102,7 +102,7 @@ export const projects: ProjectSummary[] = [
         typeLabel: "Private residence",
         unitsLabel: "1 residence",
         shortDescription:
-          "Private residence in Paracuru for a European client, with roughly 400 square meters of covered area, a lakeside site, interiors coordinated in-house, and an accelerated delivery schedule.",
+          "Private residence in Paracuru for a European client, with roughly 400 square meters of covered area on a lakeside site. The project includes in-house interiors, furniture, and material coordination, with full delivery planned in under one year.",
         ctaLabel: "Request project overview",
         meta: ["Paracuru, Ceará", "European client", "Private residence"]
       }

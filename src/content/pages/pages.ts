@@ -249,17 +249,17 @@ export const projectsPage: PageContent<StandardPageContent> = {
         {
           title: "DunaMar",
           body:
-            "Projeto referência da P.U. Construtora, com 14 apartamentos em Paracuru e site próprio para informações comerciais."
+            "Projeto referência da P.U. Construtora, com 14 apartamentos em Paracuru, agora em acabamentos finais e certificação, e site próprio para informações comerciais."
         },
         {
           title: "DunaMar 2",
           body:
-            "Segundo empreendimento da empresa em Paracuru, com 22 unidades entre apartamentos e casas e obra já em fase inicial."
+            "Segundo empreendimento da empresa em Paracuru, com 22 unidades entre apartamentos e casas. O Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as casas integram a terceira fase planejada."
         },
         {
           title: "Residência Privada na Lagoa",
           body:
-            "Residência privada de alto padrão em Paracuru, executada para cliente europeu com implantação à beira da lagoa, interiores coordenados internamente e cronograma de entrega enxuto."
+            "Residência privada de alto padrão em Paracuru, executada para cliente europeu com implantação à beira da lagoa, interiores, mobiliário e materiais coordenados internamente e entrega integral prevista em menos de um ano."
         }
       ]
     },
@@ -272,17 +272,17 @@ export const projectsPage: PageContent<StandardPageContent> = {
         {
           title: "DunaMar",
           body:
-            "P.U. Construtora's reference project, with 14 apartments in Paracuru and its own website for commercial information."
+            "P.U. Construtora's reference project, with 14 apartments in Paracuru, now in final finishes and certification, and its own website for commercial information."
         },
         {
           title: "DunaMar 2",
           body:
-            "Second company project in Paracuru, with 22 units across apartments and houses and construction already in its early stage."
+            "Second company project in Paracuru, with 22 units across apartments and houses. Block 1 is nearing completion, Block 2 is already under construction, and the houses form the planned third phase."
         },
         {
           title: "Lakeside Private Residence",
           body:
-            "High-end private residence in Paracuru for a European client, built on a lakeside site with in-house interior coordination and an accelerated delivery target."
+            "High-end private residence in Paracuru for a European client, built on a lakeside site with in-house interior, furniture, and material coordination and full delivery planned in under one year."
         }
       ]
     }
@@ -324,7 +324,7 @@ export const aboutPage: PageContent<StandardPageContent> = {
         {
           title: "Crescimento com continuidade",
           body:
-            "O DunaMar funciona como referência de entrega e aprendizado operacional. O DunaMar 2 reaproveita essa base na habitação acessível, enquanto a residência privada à beira da lagoa mostra a mesma capacidade de execução em um produto mais customizado."
+            "O DunaMar consolida o padrão de entrega e aprendizado operacional da empresa. O DunaMar 2 aplica essa base em uma obra de maior escala, com o Bloco 1 próximo da conclusão, o Bloco 2 em execução e as casas previstas para a terceira fase. A residência privada à beira da lagoa demonstra a mesma capacidade de coordenação em um produto mais personalizado."
         }
       ],
       cta: { label: "Ver projetos", hrefKey: "projects" }
@@ -348,7 +348,7 @@ export const aboutPage: PageContent<StandardPageContent> = {
         {
           title: "Long-term system",
           body:
-            "The company structures data, processes, communication, and construction decisions so every new project becomes clearer, better controlled, and more efficient."
+            "DunaMar established the company’s delivery benchmark. DunaMar 2 applies that operating base at a larger scale, while the lakeside private residence demonstrates the same close coordination in a more customized product."
         }
       ],
       cta: { label: "View projects", hrefKey: "projects" }
@@ -386,7 +386,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
         {
           title: "Projetos em andamento",
           body:
-            "O DunaMar, com 14 apartamentos, está em fase final de obra. O DunaMar 2 já começou no mesmo município, com 22 unidades entre apartamentos e casas. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores coordenados internamente e entrega prevista em prazo inferior a um ano."
+            "O DunaMar, com 14 apartamentos, está em acabamentos finais e certificação. No DunaMar 2, o Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as duas casas permanecem previstas para a terceira fase. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores, mobiliário e materiais coordenados internamente."
         },
         {
           title: "Informações institucionais",
@@ -412,7 +412,7 @@ export const investorsPage: PageContent<InvestorsContent> = {
         {
           title: "Active projects",
           body:
-            "DunaMar, with 14 apartments, is near completion. DunaMar 2 has already started in the same municipality, with 22 total units across apartments and houses. In parallel, the company is delivering a high-end lakeside private residence with interiors coordinated in-house and a delivery target under one year."
+            "DunaMar, with 14 apartments, is in final finishes and certification. At DunaMar 2, Block 1 is nearing completion, Block 2 is already under construction, and the two houses remain planned for the third phase. In parallel, the company is delivering a high-end lakeside private residence with interiors, furniture, and materials coordinated in-house."
         },
         {
           title: "Institutional information",
