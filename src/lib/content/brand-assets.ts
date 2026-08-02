@@ -1,8 +1,8 @@
 export const siteBrand = {
   headerLogo: {
     src: "/brand/logo-horizontal.svg",
-    width: 650,
-    height: 150,
+    width: 357,
+    height: 96,
     alt: "Construtora P.U."
   },
   markLogo: {
