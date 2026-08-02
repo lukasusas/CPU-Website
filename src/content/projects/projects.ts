@@ -10,10 +10,10 @@ export const projects: ProjectSummary[] = [
     stage: "Acabamentos finais e certificação",
     externalUrl: "https://dunamar.construtorapu.com.br",
     image: {
-      src: "/projects/dunamar/dunamar-render-front-elevation.jpg",
+      src: "/projects/dunamar/dunamar-current-facade.jpg",
       alt: {
-        ptBR: "Imagem do empreendimento DunaMar em Paracuru",
-        en: "Image of the DunaMar development in Paracuru"
+        ptBR: "Fachada e entrada concluídas do empreendimento DunaMar em Paracuru",
+        en: "Completed facade and entrance of the DunaMar development in Paracuru"
       }
     },
     translations: {

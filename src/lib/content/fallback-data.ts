@@ -329,32 +329,46 @@ export const fallbackDataset: SiteDataset = {
       externalUrl: "https://dunamar.construtorapu.com.br",
       externalLabel: l("Abrir site do projeto", "Open project website"),
       image: {
-        fallbackSrc: "/projects/dunamar/dunamar-render-front-elevation.jpg",
+        fallbackSrc: "/projects/dunamar/dunamar-current-facade.jpg",
         alt: l(
-          "Imagem do empreendimento DunaMar em Paracuru.",
-          "Image of the DunaMar development in Paracuru."
+          "Fachada e entrada concluídas do empreendimento DunaMar em Paracuru.",
+          "Completed facade and entrance of the DunaMar development in Paracuru."
         )
       },
       gallery: [
         {
-          fallbackSrc: "/projects/dunamar/dunamar-render-front-elevation.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-current-facade.jpg",
           alt: l(
-            "Imagem principal do empreendimento DunaMar em Paracuru.",
-            "Main image of the DunaMar development in Paracuru."
+            "Fachada e entrada concluídas do empreendimento DunaMar em Paracuru.",
+            "Completed facade and entrance of the DunaMar development in Paracuru."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar/dunamar-construction-aerial.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-current-main-gate.jpg",
           alt: l(
-            "Vista externa complementar do empreendimento DunaMar.",
-            "Secondary exterior view of the DunaMar development."
+            "Portão principal e acesso do empreendimento DunaMar.",
+            "Main gate and access to the DunaMar development."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar/dunamar-render-courtyard.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-current-entrance.jpg",
           alt: l(
-            "Ambiente de convivência do empreendimento DunaMar.",
-            "Amenity space at the DunaMar development."
+            "Entrada do empreendimento DunaMar em Paracuru.",
+            "Entrance to the DunaMar development in Paracuru."
+          )
+        },
+        {
+          fallbackSrc: "/projects/dunamar/dunamar-current-gate-wide.jpg",
+          alt: l(
+            "Vista ampla do portão e da fachada do DunaMar.",
+            "Wide view of the DunaMar gate and facade."
+          )
+        },
+        {
+          fallbackSrc: "/projects/dunamar/dunamar-current-gate-detail.jpg",
+          alt: l(
+            "Detalhe da entrada e sinalização do empreendimento DunaMar.",
+            "Detail of the DunaMar entrance and project sign."
           )
         }
       ],
