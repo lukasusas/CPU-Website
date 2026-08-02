@@ -328,6 +328,10 @@ export const fallbackDataset: SiteDataset = {
       ),
       externalUrl: "https://dunamar.construtorapu.com.br",
       externalLabel: l("Abrir site do projeto", "Open project website"),
+      logo: {
+        fallbackSrc: "/projects/dunamar/dunamar-logo-horizontal-dark.svg",
+        alt: l("Logotipo DunaMar", "DunaMar logo")
+      },
       image: {
         fallbackSrc: "/projects/dunamar/dunamar-current-facade.jpg",
         alt: l(
@@ -387,6 +391,10 @@ export const fallbackDataset: SiteDataset = {
       ),
       externalUrl: "https://dunamar2.construtorapu.com.br/",
       externalLabel: l("Abrir site do projeto", "Open project website"),
+      logo: {
+        fallbackSrc: "/projects/dunamar-2/dunamar-2-logo-horizontal-dark.svg",
+        alt: l("Logotipo DunaMar 2", "DunaMar 2 logo")
+      },
       image: {
         fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
         alt: l(

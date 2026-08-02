@@ -65,6 +65,20 @@ export const projectSummary = defineType({
       type: "localizedString"
     }),
     defineField({
+      name: "brandLogo",
+      title: "Project Logo",
+      type: "image",
+      description: "Optional. When supplied, it replaces the visible project code in portfolio cards.",
+      fields: [
+        defineField({
+          name: "alt",
+          title: "Alt Text",
+          type: "localizedString",
+          validation: (rule) => rule.required()
+        })
+      ]
+    }),
+    defineField({
       name: "image",
       title: "Project Image",
       type: "image",

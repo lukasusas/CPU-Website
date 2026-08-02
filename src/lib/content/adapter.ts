@@ -265,6 +265,8 @@ function mapProjects(raw: RawSanityPayload): ProjectSummaryVM[] {
 
       const imageRecord = (project.image as Record<string, unknown>) ?? {};
       const imageSource = imageRecord.asset as Parameters<typeof sanityImageUrl>[0];
+      const logoRecord = (project.brandLogo as Record<string, unknown>) ?? {};
+      const logoSource = logoRecord.asset as Parameters<typeof sanityImageUrl>[0];
       const description = sanitizeProjectDescription(
         readLocalized(project.shortDescription as LocalizedInput, fallback.shortDescription)
       );
@@ -279,6 +281,13 @@ function mapProjects(raw: RawSanityPayload): ProjectSummaryVM[] {
         shortDescription: description,
         externalUrl: readOptionalString(project.externalUrl) ?? fallback.externalUrl,
         externalLabel: readLocalized(project.externalLabel as LocalizedInput, fallback.externalLabel),
+        logo: fallback.logo
+          ? {
+              url: sanityImageUrl(logoSource, 1200) ?? fallback.logo.url,
+              fallbackSrc: fallback.logo.fallbackSrc,
+              alt: readLocalized(logoRecord.alt as LocalizedInput, fallback.logo.alt)
+            }
+          : undefined,
         image: {
           url: sanityImageUrl(imageSource, 1800) ?? fallback.image.url,
           fallbackSrc: fallback.image.fallbackSrc,

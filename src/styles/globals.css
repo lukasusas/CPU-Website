@@ -851,6 +851,20 @@ button {
   text-transform: uppercase;
 }
 
+.project-window__brand {
+  display: flex;
+  align-items: center;
+  min-height: clamp(1.9rem, 3vw, 3rem);
+}
+
+.project-window__brand img {
+  display: block;
+  width: clamp(156px, 18vw, 230px);
+  max-height: 48px;
+  object-fit: contain;
+  object-position: left center;
+}
+
 .project-window__body p,
 .team-entry p,
 .contact-route p,
