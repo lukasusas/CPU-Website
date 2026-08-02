@@ -79,7 +79,14 @@ export function ProjectPortfolioCard({
       </div>
 
       <div className="project-window__body">
-        <h3>{project.name}</h3>
+        {project.logo ? (
+          <h3 className="project-window__brand">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={project.logo.src} alt={project.logo.alt} />
+          </h3>
+        ) : (
+          <h3>{project.name}</h3>
+        )}
         <p>{project.shortDescription}</p>
         <dl>
           <DataLine label={locale === "ptBR" ? "Local" : "Location"} value={project.location} />

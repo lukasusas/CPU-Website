@@ -95,6 +95,12 @@ function localizeProjects(dataset: SiteDataset, locale: Locale): LocalizedProjec
     shortDescription: localize(project.shortDescription, locale),
     externalUrl: project.externalUrl,
     externalLabel: localize(project.externalLabel, locale),
+    logo: project.logo
+      ? {
+          src: project.logo.url ?? project.logo.fallbackSrc,
+          alt: localize(project.logo.alt, locale)
+        }
+      : undefined,
     image: {
       src: project.image.url ?? project.image.fallbackSrc,
       alt: localize(project.image.alt, locale)

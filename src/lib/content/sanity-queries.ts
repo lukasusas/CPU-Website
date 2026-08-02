@@ -69,6 +69,10 @@ export const siteDatasetQuery = groq`{
     shortDescription,
     externalUrl,
     externalLabel,
+    brandLogo{
+      alt,
+      asset->
+    },
     image{
       alt,
       asset->

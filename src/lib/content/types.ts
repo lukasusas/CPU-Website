@@ -66,6 +66,7 @@ export type ProjectSummaryVM = {
   shortDescription: Localized<string>;
   externalUrl?: string;
   externalLabel: Localized<string>;
+  logo?: ImageVM;
   image: ImageVM;
   gallery?: GalleryImageVM[];
   order: number;
@@ -161,6 +162,10 @@ export type LocalizedProjectSummary = {
   shortDescription: string;
   externalUrl?: string;
   externalLabel: string;
+  logo?: {
+    src: string;
+    alt: string;
+  };
   image: {
     src: string;
     alt: string;
