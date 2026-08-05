@@ -36,6 +36,8 @@ export async function LocaleShell({ locale, children }: LocaleShellProps) {
         footerLegal={context.settings.footerLegal}
         contactEmail={context.settings.contactEmail}
         investorEmail={context.settings.investorEmail}
+        whatsappUrl={context.settings.whatsappUrl}
+        businessPhone={context.settings.businessPhone}
       />
     </>
   );

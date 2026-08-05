@@ -135,7 +135,7 @@ function mapSettings(raw: RawSanityPayload): SiteSettingsVM {
     contactEmail: readString(settings.contactEmail, fallback.contactEmail),
     investorEmail: readString(settings.investorEmail, fallback.investorEmail),
     whatsappUrl: readOptionalString(settings.whatsappUrl) ?? fallback.whatsappUrl,
-    businessPhone: readOptionalString(settings.businessPhone),
+    businessPhone: readOptionalString(settings.businessPhone) ?? fallback.businessPhone,
     publicAddress: hasCompleteAddress
       ? {
           streetAddress: address.streetAddress!,

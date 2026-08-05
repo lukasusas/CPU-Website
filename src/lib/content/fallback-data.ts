@@ -10,6 +10,8 @@ export const fallbackDataset: SiteDataset = {
     defaultLocale: "ptBR",
     contactEmail: "contato@construtorapu.com.br",
     investorEmail: "invest@construtorapu.com.br",
+    whatsappUrl: "https://wa.me/5564996130939",
+    businessPhone: "+55 64 99613-0939",
     coordinatesLabel: l(
       "Paracuru, Ceará, Brasil",
       "Paracuru, Ceará, Brazil"
@@ -614,6 +616,17 @@ export const fallbackDataset: SiteDataset = {
       ctaLabel: l("Enviar email", "Send email"),
       href: "mailto:contato@construtorapu.com.br",
       order: 2
+    },
+    {
+      id: "contact-whatsapp",
+      title: l("WhatsApp comercial", "Business WhatsApp"),
+      body: l(
+        "Canal para contato institucional, parcerias e encaminhamento inicial sobre os empreendimentos da Construtora P.U.",
+        "Channel for corporate contact, partnerships, and initial routing for enquiries about Construtora P.U. developments."
+      ),
+      ctaLabel: l("Conversar no WhatsApp", "Chat on WhatsApp"),
+      href: "https://wa.me/5564996130939",
+      order: 3
     }
   ],
   legalBlocks: [
