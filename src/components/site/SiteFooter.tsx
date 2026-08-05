@@ -9,6 +9,8 @@ type SiteFooterProps = {
   footerLegal: string;
   contactEmail: string;
   investorEmail: string;
+  whatsappUrl?: string;
+  businessPhone?: string;
 };
 
 export function SiteFooter({
@@ -16,7 +18,9 @@ export function SiteFooter({
   footerSummary,
   footerLegal,
   contactEmail,
-  investorEmail
+  investorEmail,
+  whatsappUrl,
+  businessPhone
 }: SiteFooterProps) {
   return (
     <footer className="site-footer">
@@ -43,6 +47,18 @@ export function SiteFooter({
         <div className="site-footer__contacts">
           <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
           <a href={`mailto:${investorEmail}`}>{investorEmail}</a>
+          {whatsappUrl && businessPhone ? (
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`${locale === "ptBR" ? "WhatsApp comercial" : "Business WhatsApp"}: ${businessPhone}`}
+            >
+              WhatsApp: {businessPhone}
+            </a>
+          ) : businessPhone ? (
+            <a href={`tel:${businessPhone.replace(/\D/g, "")}`}>{businessPhone}</a>
+          ) : null}
         </div>
       </div>
       <div className="site-footer__bottom">
