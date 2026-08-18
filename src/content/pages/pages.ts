@@ -249,7 +249,7 @@ export const projectsPage: PageContent<StandardPageContent> = {
         {
           title: "DunaMar",
           body:
-            "Projeto referência da Construtora P.U., com 14 apartamentos em Paracuru, agora em acabamentos finais e certificação, e site próprio para informações comerciais."
+            "Projeto referência da Construtora P.U., com 14 apartamentos em Paracuru, agora concluído, com edificações, acessos e áreas comuns finalizados e matrículas individualizadas."
         },
         {
           title: "DunaMar 2",
@@ -272,7 +272,7 @@ export const projectsPage: PageContent<StandardPageContent> = {
         {
           title: "DunaMar",
           body:
-            "Construtora P.U.'s reference project, with 14 apartments in Paracuru, now in final finishes and certification, and its own website for commercial information."
+            "Construtora P.U.'s reference project, with 14 apartments in Paracuru, now completed with finished buildings, access and common areas and individual property registrations."
         },
         {
           title: "DunaMar 2",
@@ -384,9 +384,9 @@ export const investorsPage: PageContent<InvestorsContent> = {
             "O foco está na habitação acessível em Paracuru, incluindo projetos enquadrados no Minha Casa Minha Vida, programa brasileiro voltado à compra da casa própria por famílias de menor renda."
         },
         {
-          title: "Projetos em andamento",
+          title: "Portfólio e projetos em andamento",
           body:
-            "O DunaMar, com 14 apartamentos, está em acabamentos finais e certificação. No DunaMar 2, o Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as duas casas permanecem previstas para a terceira fase. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores, mobiliário e materiais coordenados internamente."
+            "O DunaMar, com 14 apartamentos, está concluído, com edificações, acessos e áreas comuns finalizados e matrículas individualizadas. No DunaMar 2, o Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as duas casas permanecem previstas para a terceira fase. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores, mobiliário e materiais coordenados internamente."
         },
         {
           title: "Informações institucionais",
@@ -410,9 +410,9 @@ export const investorsPage: PageContent<InvestorsContent> = {
             "The focus is affordable housing in Paracuru, including projects within Minha Casa Minha Vida, Brazil's subsidized homeownership program for lower-income families."
         },
         {
-          title: "Active projects",
+          title: "Portfolio and active projects",
           body:
-            "DunaMar, with 14 apartments, is in final finishes and certification. At DunaMar 2, Block 1 is nearing completion, Block 2 is already under construction, and the two houses remain planned for the third phase. In parallel, the company is delivering a high-end lakeside private residence with interiors, furniture, and materials coordinated in-house."
+            "DunaMar, with 14 apartments, is completed, with finished buildings, access and common areas and individual property registrations. At DunaMar 2, Block 1 is nearing completion, Block 2 is already under construction, and the two houses remain planned for the third phase. In parallel, the company is delivering a high-end lakeside private residence with interiors, furniture, and materials coordinated in-house."
         },
         {
           title: "Institutional information",

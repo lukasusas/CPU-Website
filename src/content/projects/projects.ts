@@ -7,10 +7,10 @@ export const projects: ProjectSummary[] = [
     location: "Paracuru, Ceará",
     projectType: "Apartamentos",
     unitCount: "14",
-    stage: "Acabamentos finais e certificação",
+    stage: "Projeto concluído",
     externalUrl: "https://dunamar.construtorapu.com.br",
     image: {
-      src: "/projects/dunamar/dunamar-current-facade.jpg",
+      src: "/projects/dunamar/dunamar-final-facade.jpg",
       alt: {
         ptBR: "Fachada e entrada concluídas do empreendimento DunaMar em Paracuru",
         en: "Completed facade and entrance of the DunaMar development in Paracuru"
@@ -18,22 +18,22 @@ export const projects: ProjectSummary[] = [
     },
     translations: {
       ptBR: {
-        stageLabel: "Acabamentos e certificação",
+        stageLabel: "Projeto concluído",
         typeLabel: "Apartamentos",
         unitsLabel: "14 unidades",
         shortDescription:
-          "Primeiro empreendimento da Construtora P.U. em Paracuru, com 14 apartamentos em acabamentos finais e certificação. É a referência inicial de entrega e padrão construtivo da empresa.",
+          "Primeiro empreendimento da Construtora P.U. em Paracuru, com 14 apartamentos, agora concluído. Edificações, acessos e áreas comuns estão finalizados, e todas as unidades possuem matrícula individual.",
         ctaLabel: "Abrir site do projeto",
-        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Acabamentos e certificação"]
+        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Projeto concluído"]
       },
       en: {
-        stageLabel: "Finishes and certification",
+        stageLabel: "Completed project",
         typeLabel: "Apartments",
         unitsLabel: "14 units",
         shortDescription:
-          "Construtora P.U.'s first project in Paracuru, with 14 apartments in final finishes and certification. It serves as the company's first delivery and quality benchmark.",
+          "Construtora P.U.'s first project in Paracuru, with 14 apartments, is now completed. The buildings, access, and common areas are finished, and every unit has its own property registration.",
         ctaLabel: "Open project website",
-        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Finishes and certification"]
+        meta: ["Paracuru, Ceará", "Minha Casa Minha Vida", "Completed project"]
       }
     }
   },
@@ -46,7 +46,7 @@ export const projects: ProjectSummary[] = [
     stage: "Obra em andamento",
     externalUrl: "https://dunamar2.construtorapu.com.br/",
     image: {
-      src: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
+      src: "/projects/dunamar-2/dunamar-2-bloco-1-aerial-progress-overview.jpg",
       alt: {
         ptBR: "Vista aérea do empreendimento DunaMar 2 em obra",
         en: "Aerial view of DunaMar 2 under construction"
