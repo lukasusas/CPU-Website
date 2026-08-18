@@ -323,10 +323,10 @@ export const fallbackDataset: SiteDataset = {
       location: l("Paracuru, Ceará", "Paracuru, Ceará"),
       projectType: l("Apartamentos", "Apartments"),
       unitCount: "14",
-      stage: l("Acabamentos finais e certificação", "Final finishes and certification"),
+      stage: l("Projeto concluído", "Completed project"),
       shortDescription: l(
-        "Primeiro empreendimento da Construtora P.U. em Paracuru, com 14 apartamentos. Está em acabamentos finais e certificação, consolidando a referência inicial de entrega e padrão construtivo da empresa.",
-        "The company's first project in Paracuru, with 14 apartments. It is in final finishes and certification, consolidating Construtora P.U.'s first delivery and quality benchmark."
+        "Primeiro empreendimento da Construtora P.U. em Paracuru, com 14 apartamentos, agora concluído. Edificações, acessos e áreas comuns estão finalizados, e todas as unidades possuem matrícula individual.",
+        "The company's first project in Paracuru, with 14 apartments, is now completed. The buildings, access, and common areas are finished, and every unit has its own property registration."
       ),
       externalUrl: "https://dunamar.construtorapu.com.br",
       externalLabel: l("Abrir site do projeto", "Open project website"),
@@ -335,7 +335,7 @@ export const fallbackDataset: SiteDataset = {
         alt: l("Logotipo DunaMar", "DunaMar logo")
       },
       image: {
-        fallbackSrc: "/projects/dunamar/dunamar-current-facade.jpg",
+        fallbackSrc: "/projects/dunamar/dunamar-final-facade.jpg",
         alt: l(
           "Fachada e entrada concluídas do empreendimento DunaMar em Paracuru.",
           "Completed facade and entrance of the DunaMar development in Paracuru."
@@ -343,38 +343,45 @@ export const fallbackDataset: SiteDataset = {
       },
       gallery: [
         {
-          fallbackSrc: "/projects/dunamar/dunamar-current-facade.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-final-facade.jpg",
           alt: l(
             "Fachada e entrada concluídas do empreendimento DunaMar em Paracuru.",
             "Completed facade and entrance of the DunaMar development in Paracuru."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar/dunamar-current-main-gate.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-final-courtyard.jpg",
           alt: l(
-            "Portão principal e acesso do empreendimento DunaMar.",
-            "Main gate and access to the DunaMar development."
+            "Pátio e fachadas finalizadas do empreendimento DunaMar.",
+            "Completed courtyard and facades of the DunaMar development."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar/dunamar-current-entrance.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-final-aerial.jpg",
           alt: l(
-            "Entrada do empreendimento DunaMar em Paracuru.",
-            "Entrance to the DunaMar development in Paracuru."
+            "Vista aérea do DunaMar concluído e de seu entorno em Paracuru.",
+            "Aerial view of the completed DunaMar development and its surroundings in Paracuru."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar/dunamar-current-gate-wide.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-final-interior.jpg",
           alt: l(
-            "Vista ampla do portão e da fachada do DunaMar.",
-            "Wide view of the DunaMar gate and facade."
+            "Interior finalizado de um apartamento do DunaMar.",
+            "Completed interior of a DunaMar apartment."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar/dunamar-current-gate-detail.jpg",
+          fallbackSrc: "/projects/dunamar/dunamar-final-balcony.jpg",
           alt: l(
-            "Detalhe da entrada e sinalização do empreendimento DunaMar.",
-            "Detail of the DunaMar entrance and project sign."
+            "Varandas e área de circulação finalizadas do DunaMar.",
+            "Completed balconies and circulation area at DunaMar."
+          )
+        },
+        {
+          fallbackSrc: "/projects/dunamar/dunamar-final-sign.jpg",
+          alt: l(
+            "Sinalização na entrada do empreendimento DunaMar concluído.",
+            "Entrance sign at the completed DunaMar development."
           )
         }
       ],
@@ -398,7 +405,7 @@ export const fallbackDataset: SiteDataset = {
         alt: l("Logotipo DunaMar 2", "DunaMar 2 logo")
       },
       image: {
-        fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
+        fallbackSrc: "/projects/dunamar-2/dunamar-2-bloco-1-aerial-progress-overview.jpg",
         alt: l(
           "Vista aérea do empreendimento DunaMar 2 em obra.",
           "Aerial view of DunaMar 2 under construction."
@@ -406,17 +413,17 @@ export const fallbackDataset: SiteDataset = {
       },
       gallery: [
         {
-          fallbackSrc: "/projects/dunamar-2/dunamar-2-site-aerial-overview.jpg",
+          fallbackSrc: "/projects/dunamar-2/dunamar-2-bloco-1-aerial-progress-overview.jpg",
           alt: l(
             "Vista aérea do empreendimento DunaMar 2 em obra.",
             "Aerial view of DunaMar 2 under construction."
           )
         },
         {
-          fallbackSrc: "/projects/dunamar-2/dunamar-2-site-facade-progress.jpg",
+          fallbackSrc: "/projects/dunamar-2/dunamar-2-bloco-1-aerial-progress-front.jpg",
           alt: l(
-            "Registro de obra do empreendimento DunaMar 2.",
-            "Construction progress image of DunaMar 2."
+            "Vista aérea frontal do canteiro do DunaMar 2.",
+            "Front aerial view of the DunaMar 2 construction site."
           )
         },
         {
@@ -502,10 +509,10 @@ export const fallbackDataset: SiteDataset = {
     {
       id: "investor-pipeline",
       sectionKey: "pipeline",
-      title: l("Projetos em andamento", "Active projects"),
+      title: l("Portfólio e projetos em andamento", "Portfolio and active projects"),
       body: l(
-        "O DunaMar, com 14 apartamentos, está em acabamentos finais e certificação. No DunaMar 2, o Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as duas casas permanecem previstas para a terceira fase. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores, mobiliário e materiais coordenados internamente.",
-        "DunaMar, with 14 apartments, is in final finishes and certification. At DunaMar 2, Block 1 is nearing completion, Block 2 is already under construction, and the two houses remain planned for the third phase. In parallel, the company is delivering a high-end lakeside private residence with interiors, furniture, and materials coordinated in-house."
+        "O DunaMar, com 14 apartamentos, está concluído, com edificações, acessos e áreas comuns finalizados e matrículas individualizadas. No DunaMar 2, o Bloco 1 está próximo da conclusão, o Bloco 2 já está em construção e as duas casas permanecem previstas para a terceira fase. Em paralelo, a empresa conduz uma residência privada de alto padrão à beira da lagoa, com interiores, mobiliário e materiais coordenados internamente.",
+        "DunaMar, with 14 apartments, is completed, with finished buildings, access and common areas and individual property registrations. At DunaMar 2, Block 1 is nearing completion, Block 2 is already under construction, and the two houses remain planned for the third phase. In parallel, the company is delivering a high-end lakeside private residence with interiors, furniture, and materials coordinated in-house."
       ),
       order: 1
     },
@@ -557,7 +564,7 @@ export const fallbackDataset: SiteDataset = {
         "Coordinates construction, schedule, suppliers, and the interface with technical teams through the company's local operation in Paracuru."
       ),
       image: {
-        fallbackSrc: "/projects/dunamar-2/dunamar-2-site-facade-progress.jpg",
+        fallbackSrc: "/projects/dunamar-2/dunamar-2-bloco-1-aerial-progress-overview.jpg",
         alt: l(
           "Registro de obra em Paracuru representando acompanhamento local de execução.",
           "Construction view in Paracuru representing close local site oversight."
